@@ -1,0 +1,1682 @@
+[
+  {
+    "round": 1,
+    "global_train_mae": 3009.917724609375,
+    "global_val_mae": 2934.849853515625,
+    "client_train_mae": {
+      "wheat12_features": 1474.7681884765625,
+      "wheat22_features": 4153.5615234375,
+      "wheat32_features": 9762.677734375,
+      "wheat42_features": 20253.669921875,
+      "wheat62_features": 4239.69140625,
+      "wheat52_features": 711.21240234375
+    },
+    "client_val_mae": {
+      "wheat12_features": 1944.221923828125,
+      "wheat22_features": 3406.018798828125,
+      "wheat32_features": 8769.7109375,
+      "wheat42_features": 18429.919921875,
+      "wheat52_features": 1205.16162109375,
+      "wheat62_features": 3768.970947265625
+    }
+  },
+  {
+    "round": 2,
+    "global_train_mae": 2351.37109375,
+    "global_val_mae": 2273.79833984375,
+    "client_train_mae": {
+      "wheat32_features": 8762.119140625,
+      "wheat62_features": 3543.353271484375,
+      "wheat22_features": 3438.5732421875,
+      "wheat42_features": 19413.505859375,
+      "wheat52_features": 635.4435424804688,
+      "wheat12_features": 640.5995483398438
+    },
+    "client_val_mae": {
+      "wheat12_features": 1104.57080078125,
+      "wheat22_features": 2514.944580078125,
+      "wheat32_features": 7932.28955078125,
+      "wheat42_features": 17685.03515625,
+      "wheat52_features": 696.1107177734375,
+      "wheat62_features": 2982.6328125
+    }
+  },
+  {
+    "round": 3,
+    "global_train_mae": 2201.18994140625,
+    "global_val_mae": 2109.12353515625,
+    "client_train_mae": {
+      "wheat32_features": 7762.109375,
+      "wheat22_features": 2647.87890625,
+      "wheat52_features": 623.3593139648438,
+      "wheat12_features": 407.39837646484375,
+      "wheat42_features": 18515.2890625,
+      "wheat62_features": 2747.615966796875
+    },
+    "client_val_mae": {
+      "wheat12_features": 845.3858032226562,
+      "wheat22_features": 2166.38623046875,
+      "wheat32_features": 7571.80908203125,
+      "wheat42_features": 17371.19140625,
+      "wheat52_features": 639.9617919921875,
+      "wheat62_features": 2652.8349609375
+    }
+  },
+  {
+    "round": 4,
+    "global_train_mae": 2132.48876953125,
+    "global_val_mae": 2037.2669677734375,
+    "client_train_mae": {
+      "wheat32_features": 7384.96142578125,
+      "wheat22_features": 2343.00830078125,
+      "wheat12_features": 318.78692626953125,
+      "wheat52_features": 618.621337890625,
+      "wheat42_features": 18144.533203125,
+      "wheat62_features": 2421.647705078125
+    },
+    "client_val_mae": {
+      "wheat12_features": 683.8062133789062,
+      "wheat22_features": 2112.980712890625,
+      "wheat32_features": 7453.287109375,
+      "wheat42_features": 17274.962890625,
+      "wheat52_features": 633.6737060546875,
+      "wheat62_features": 2545.670166015625
+    }
+  },
+  {
+    "round": 5,
+    "global_train_mae": 2085.333984375,
+    "global_val_mae": 1990.1392822265625,
+    "client_train_mae": {
+      "wheat42_features": 18033.12890625,
+      "wheat12_features": 281.556884765625,
+      "wheat32_features": 7266.080078125,
+      "wheat52_features": 614.5089721679688,
+      "wheat62_features": 2332.412353515625,
+      "wheat22_features": 2263.62744140625
+    },
+    "client_val_mae": {
+      "wheat12_features": 580.1508178710938,
+      "wheat22_features": 2104.159423828125,
+      "wheat32_features": 7397.34033203125,
+      "wheat42_features": 17232.39453125,
+      "wheat52_features": 622.1207885742188,
+      "wheat62_features": 2494.034912109375
+    }
+  },
+  {
+    "round": 6,
+    "global_train_mae": 2049.72705078125,
+    "global_val_mae": 1955.0509033203125,
+    "client_train_mae": {
+      "wheat12_features": 263.8427734375,
+      "wheat42_features": 17977.529296875,
+      "wheat52_features": 611.532958984375,
+      "wheat32_features": 7207.64306640625,
+      "wheat62_features": 2304.7744140625,
+      "wheat22_features": 2238.967041015625
+    },
+    "client_val_mae": {
+      "wheat12_features": 495.54718017578125,
+      "wheat22_features": 2117.554443359375,
+      "wheat32_features": 7366.5869140625,
+      "wheat42_features": 17210.8515625,
+      "wheat52_features": 615.0120239257812,
+      "wheat62_features": 2467.307861328125
+    }
+  },
+  {
+    "round": 7,
+    "global_train_mae": 2026.18408203125,
+    "global_val_mae": 1933.4114990234375,
+    "client_train_mae": {
+      "wheat52_features": 609.2168579101562,
+      "wheat32_features": 7169.12841796875,
+      "wheat42_features": 17946.24609375,
+      "wheat62_features": 2289.318115234375,
+      "wheat12_features": 260.63232421875,
+      "wheat22_features": 2228.320556640625
+    },
+    "client_val_mae": {
+      "wheat12_features": 441.340087890625,
+      "wheat22_features": 2135.398193359375,
+      "wheat32_features": 7360.3017578125,
+      "wheat42_features": 17211.828125,
+      "wheat52_features": 608.2560424804688,
+      "wheat62_features": 2464.390380859375
+    }
+  },
+  {
+    "round": 8,
+    "global_train_mae": 2006.6331787109375,
+    "global_val_mae": 1914.7542724609375,
+    "client_train_mae": {
+      "wheat42_features": 17945.197265625,
+      "wheat52_features": 607.0640258789062,
+      "wheat12_features": 255.81651306152344,
+      "wheat62_features": 2293.54248046875,
+      "wheat22_features": 2237.4951171875,
+      "wheat32_features": 7161.95654296875
+    },
+    "client_val_mae": {
+      "wheat12_features": 407.3145751953125,
+      "wheat22_features": 2156.43505859375,
+      "wheat32_features": 7317.82763671875,
+      "wheat42_features": 17185.427734375,
+      "wheat52_features": 603.3304443359375,
+      "wheat62_features": 2428.33447265625
+    }
+  },
+  {
+    "round": 9,
+    "global_train_mae": 1992.728515625,
+    "global_val_mae": 1903.2537841796875,
+    "client_train_mae": {
+      "wheat32_features": 7121.9697265625,
+      "wheat42_features": 17905.810546875,
+      "wheat22_features": 2227.0576171875,
+      "wheat12_features": 252.18136596679688,
+      "wheat62_features": 2282.330810546875,
+      "wheat52_features": 604.9458618164062
+    },
+    "client_val_mae": {
+      "wheat12_features": 374.14727783203125,
+      "wheat22_features": 2163.551513671875,
+      "wheat32_features": 7326.4033203125,
+      "wheat42_features": 17197.62109375,
+      "wheat52_features": 599.3558349609375,
+      "wheat62_features": 2439.146484375
+    }
+  },
+  {
+    "round": 10,
+    "global_train_mae": 1985.2479248046875,
+    "global_val_mae": 1896.7659912109375,
+    "client_train_mae": {
+      "wheat22_features": 2238.3271484375,
+      "wheat12_features": 253.9639892578125,
+      "wheat52_features": 603.0355834960938,
+      "wheat42_features": 17914.890625,
+      "wheat62_features": 2292.152587890625,
+      "wheat32_features": 7128.63330078125
+    },
+    "client_val_mae": {
+      "wheat12_features": 362.6351013183594,
+      "wheat22_features": 2187.147705078125,
+      "wheat32_features": 7313.52978515625,
+      "wheat42_features": 17197.6953125,
+      "wheat52_features": 596.0264892578125,
+      "wheat62_features": 2431.478515625
+    }
+  },
+  {
+    "round": 11,
+    "global_train_mae": 1976.5196533203125,
+    "global_val_mae": 1888.5963134765625,
+    "client_train_mae": {
+      "wheat32_features": 7117.11474609375,
+      "wheat62_features": 2299.597900390625,
+      "wheat12_features": 250.88031005859375,
+      "wheat42_features": 17903.05859375,
+      "wheat52_features": 601.1235961914062,
+      "wheat22_features": 2244.38720703125
+    },
+    "client_val_mae": {
+      "wheat12_features": 343.90277099609375,
+      "wheat22_features": 2192.04443359375,
+      "wheat32_features": 7305.4453125,
+      "wheat42_features": 17195.46484375,
+      "wheat52_features": 593.6532592773438,
+      "wheat62_features": 2425.444580078125
+    }
+  },
+  {
+    "round": 12,
+    "global_train_mae": 1968.697265625,
+    "global_val_mae": 1881.373046875,
+    "client_train_mae": {
+      "wheat52_features": 599.2842407226562,
+      "wheat32_features": 7102.60302734375,
+      "wheat12_features": 245.73251342773438,
+      "wheat62_features": 2300.9404296875,
+      "wheat22_features": 2244.157470703125,
+      "wheat42_features": 17896.03125
+    },
+    "client_val_mae": {
+      "wheat12_features": 329.39312744140625,
+      "wheat22_features": 2198.749267578125,
+      "wheat32_features": 7290.9482421875,
+      "wheat42_features": 17190.416015625,
+      "wheat52_features": 591.7803344726562,
+      "wheat62_features": 2415.5048828125
+    }
+  },
+  {
+    "round": 13,
+    "global_train_mae": 1964.9208984375,
+    "global_val_mae": 1878.16357421875,
+    "client_train_mae": {
+      "wheat22_features": 2240.69384765625,
+      "wheat52_features": 597.2720336914062,
+      "wheat32_features": 7094.49853515625,
+      "wheat12_features": 251.27818298339844,
+      "wheat62_features": 2299.17578125,
+      "wheat42_features": 17885.603515625
+    },
+    "client_val_mae": {
+      "wheat12_features": 330.0964050292969,
+      "wheat22_features": 2223.7958984375,
+      "wheat32_features": 7271.9384765625,
+      "wheat42_features": 17186.1015625,
+      "wheat52_features": 588.5433349609375,
+      "wheat62_features": 2401.60986328125
+    }
+  },
+  {
+    "round": 14,
+    "global_train_mae": 1960.2945556640625,
+    "global_val_mae": 1873.370849609375,
+    "client_train_mae": {
+      "wheat22_features": 2243.37255859375,
+      "wheat42_features": 17873.25,
+      "wheat32_features": 7081.32666015625,
+      "wheat62_features": 2305.581298828125,
+      "wheat52_features": 595.1384887695312,
+      "wheat12_features": 256.6739501953125
+    },
+    "client_val_mae": {
+      "wheat12_features": 321.801513671875,
+      "wheat22_features": 2230.181884765625,
+      "wheat32_features": 7263.63720703125,
+      "wheat42_features": 17185.603515625,
+      "wheat52_features": 585.9776611328125,
+      "wheat62_features": 2394.9833984375
+    }
+  },
+  {
+    "round": 15,
+    "global_train_mae": 1954.4410400390625,
+    "global_val_mae": 1867.2969970703125,
+    "client_train_mae": {
+      "wheat22_features": 2248.873779296875,
+      "wheat52_features": 593.201416015625,
+      "wheat42_features": 17867.2109375,
+      "wheat12_features": 242.6162872314453,
+      "wheat62_features": 2311.2802734375,
+      "wheat32_features": 7073.8408203125
+    },
+    "client_val_mae": {
+      "wheat12_features": 315.4256896972656,
+      "wheat22_features": 2237.3427734375,
+      "wheat32_features": 7237.93408203125,
+      "wheat42_features": 17171.119140625,
+      "wheat52_features": 584.0310668945312,
+      "wheat62_features": 2374.0615234375
+    }
+  },
+  {
+    "round": 16,
+    "global_train_mae": 1951.845703125,
+    "global_val_mae": 1865.639892578125,
+    "client_train_mae": {
+      "wheat32_features": 7041.458984375,
+      "wheat22_features": 2237.607666015625,
+      "wheat12_features": 247.82794189453125,
+      "wheat42_features": 17840.60546875,
+      "wheat52_features": 590.82275390625,
+      "wheat62_features": 2309.9541015625
+    },
+    "client_val_mae": {
+      "wheat12_features": 314.87255859375,
+      "wheat22_features": 2250.032470703125,
+      "wheat32_features": 7232.64697265625,
+      "wheat42_features": 17176.021484375,
+      "wheat52_features": 581.4827270507812,
+      "wheat62_features": 2374.281005859375
+    }
+  },
+  {
+    "round": 17,
+    "global_train_mae": 1950.147705078125,
+    "global_val_mae": 1864.3646240234375,
+    "client_train_mae": {
+      "wheat22_features": 2243.8525390625,
+      "wheat42_features": 17844.986328125,
+      "wheat52_features": 588.813720703125,
+      "wheat62_features": 2318.1708984375,
+      "wheat12_features": 244.64268493652344,
+      "wheat32_features": 7034.58935546875
+    },
+    "client_val_mae": {
+      "wheat12_features": 317.9626159667969,
+      "wheat22_features": 2268.66064453125,
+      "wheat32_features": 7218.97412109375,
+      "wheat42_features": 17177.75,
+      "wheat52_features": 579.0531616210938,
+      "wheat62_features": 2367.21435546875
+    }
+  },
+  {
+    "round": 18,
+    "global_train_mae": 1947.338623046875,
+    "global_val_mae": 1861.9783935546875,
+    "client_train_mae": {
+      "wheat22_features": 2251.037353515625,
+      "wheat12_features": 242.94229125976562,
+      "wheat32_features": 7026.86376953125,
+      "wheat62_features": 2326.53564453125,
+      "wheat52_features": 586.6138305664062,
+      "wheat42_features": 17839.28125
+    },
+    "client_val_mae": {
+      "wheat12_features": 317.16290283203125,
+      "wheat22_features": 2274.936279296875,
+      "wheat32_features": 7209.0048828125,
+      "wheat42_features": 17178.001953125,
+      "wheat52_features": 576.595703125,
+      "wheat62_features": 2363.221435546875
+    }
+  },
+  {
+    "round": 19,
+    "global_train_mae": 1943.180419921875,
+    "global_val_mae": 1857.9390869140625,
+    "client_train_mae": {
+      "wheat62_features": 2329.887939453125,
+      "wheat52_features": 583.9921875,
+      "wheat42_features": 17831.2890625,
+      "wheat32_features": 7024.13134765625,
+      "wheat12_features": 242.964111328125,
+      "wheat22_features": 2256.3798828125
+    },
+    "client_val_mae": {
+      "wheat12_features": 314.2991638183594,
+      "wheat22_features": 2276.494384765625,
+      "wheat32_features": 7190.3291015625,
+      "wheat42_features": 17168.64453125,
+      "wheat52_features": 574.7515869140625,
+      "wheat62_features": 2347.588623046875
+    }
+  },
+  {
+    "round": 20,
+    "global_train_mae": 1939.795654296875,
+    "global_val_mae": 1854.2811279296875,
+    "client_train_mae": {
+      "wheat12_features": 241.6172637939453,
+      "wheat42_features": 17814.50390625,
+      "wheat52_features": 581.379150390625,
+      "wheat22_features": 2253.854248046875,
+      "wheat62_features": 2330.314697265625,
+      "wheat32_features": 7014.208984375
+    },
+    "client_val_mae": {
+      "wheat12_features": 313.31719970703125,
+      "wheat22_features": 2283.8173828125,
+      "wheat32_features": 7170.5458984375,
+      "wheat42_features": 17158.953125,
+      "wheat52_features": 572.6032104492188,
+      "wheat62_features": 2330.680908203125
+    }
+  },
+  {
+    "round": 21,
+    "global_train_mae": 1937.3453369140625,
+    "global_val_mae": 1851.10400390625,
+    "client_train_mae": {
+      "wheat62_features": 2334.327392578125,
+      "wheat12_features": 241.64686584472656,
+      "wheat42_features": 17800.98828125,
+      "wheat52_features": 579.27978515625,
+      "wheat22_features": 2253.86669921875,
+      "wheat32_features": 6987.033203125
+    },
+    "client_val_mae": {
+      "wheat12_features": 323.504150390625,
+      "wheat22_features": 2295.399658203125,
+      "wheat32_features": 7126.36767578125,
+      "wheat42_features": 17131.83984375,
+      "wheat52_features": 570.0176391601562,
+      "wheat62_features": 2307.623779296875
+    }
+  },
+  {
+    "round": 22,
+    "global_train_mae": 1933.744873046875,
+    "global_val_mae": 1848.8082275390625,
+    "client_train_mae": {
+      "wheat52_features": 576.0247802734375,
+      "wheat22_features": 2243.718017578125,
+      "wheat12_features": 240.2725067138672,
+      "wheat62_features": 2326.657470703125,
+      "wheat42_features": 17759.853515625,
+      "wheat32_features": 6957.9072265625
+    },
+    "client_val_mae": {
+      "wheat12_features": 316.37933349609375,
+      "wheat22_features": 2301.305419921875,
+      "wheat32_features": 7135.08203125,
+      "wheat42_features": 17148.81640625,
+      "wheat52_features": 566.9772338867188,
+      "wheat62_features": 2315.29150390625
+    }
+  },
+  {
+    "round": 23,
+    "global_train_mae": 1933.095947265625,
+    "global_val_mae": 1850.359375,
+    "client_train_mae": {
+      "wheat12_features": 250.6635284423828,
+      "wheat42_features": 17770.72265625,
+      "wheat52_features": 574.7020874023438,
+      "wheat32_features": 6965.73291015625,
+      "wheat22_features": 2255.223876953125,
+      "wheat62_features": 2334.920166015625
+    },
+    "client_val_mae": {
+      "wheat12_features": 312.6369934082031,
+      "wheat22_features": 2310.414306640625,
+      "wheat32_features": 7158.63232421875,
+      "wheat42_features": 17177.69140625,
+      "wheat52_features": 565.4869384765625,
+      "wheat62_features": 2333.44677734375
+    }
+  },
+  {
+    "round": 24,
+    "global_train_mae": 1927.9244384765625,
+    "global_val_mae": 1845.176025390625,
+    "client_train_mae": {
+      "wheat22_features": 2272.599609375,
+      "wheat32_features": 6981.83251953125,
+      "wheat12_features": 238.23135375976562,
+      "wheat62_features": 2350.159912109375,
+      "wheat52_features": 572.1240234375,
+      "wheat42_features": 17800.16796875
+    },
+    "client_val_mae": {
+      "wheat12_features": 311.3137512207031,
+      "wheat22_features": 2306.099853515625,
+      "wheat32_features": 7130.009765625,
+      "wheat42_features": 17162.349609375,
+      "wheat52_features": 562.7756958007812,
+      "wheat62_features": 2318.2490234375
+    }
+  },
+  {
+    "round": 25,
+    "global_train_mae": 1923.952880859375,
+    "global_val_mae": 1840.3565673828125,
+    "client_train_mae": {
+      "wheat62_features": 2343.5712890625,
+      "wheat42_features": 17780.04296875,
+      "wheat52_features": 566.593994140625,
+      "wheat12_features": 252.76597595214844,
+      "wheat22_features": 2265.7685546875,
+      "wheat32_features": 6949.38720703125
+    },
+    "client_val_mae": {
+      "wheat12_features": 313.9794921875,
+      "wheat22_features": 2311.5087890625,
+      "wheat32_features": 7097.87109375,
+      "wheat42_features": 17143.93359375,
+      "wheat52_features": 558.9560546875,
+      "wheat62_features": 2306.59521484375
+    }
+  },
+  {
+    "round": 26,
+    "global_train_mae": 1919.8177490234375,
+    "global_val_mae": 1834.105712890625,
+    "client_train_mae": {
+      "wheat12_features": 238.7868194580078,
+      "wheat22_features": 2262.87744140625,
+      "wheat62_features": 2349.284423828125,
+      "wheat52_features": 563.29931640625,
+      "wheat42_features": 17747.537109375,
+      "wheat32_features": 6922.9833984375
+    },
+    "client_val_mae": {
+      "wheat12_features": 319.7541198730469,
+      "wheat22_features": 2310.867919921875,
+      "wheat32_features": 7046.6298828125,
+      "wheat42_features": 17108.68359375,
+      "wheat52_features": 555.345947265625,
+      "wheat62_features": 2282.985107421875
+    }
+  },
+  {
+    "round": 27,
+    "global_train_mae": 1915.2825927734375,
+    "global_val_mae": 1828.8936767578125,
+    "client_train_mae": {
+      "wheat12_features": 239.04788208007812,
+      "wheat32_features": 6889.685546875,
+      "wheat52_features": 559.4644775390625,
+      "wheat62_features": 2345.22021484375,
+      "wheat42_features": 17700.318359375,
+      "wheat22_features": 2252.49462890625
+    },
+    "client_val_mae": {
+      "wheat12_features": 316.8662109375,
+      "wheat22_features": 2306.977783203125,
+      "wheat32_features": 7024.15966796875,
+      "wheat42_features": 17097.18359375,
+      "wheat52_features": 552.1470336914062,
+      "wheat62_features": 2271.7822265625
+    }
+  },
+  {
+    "round": 28,
+    "global_train_mae": 1911.2806396484375,
+    "global_val_mae": 1823.8319091796875,
+    "client_train_mae": {
+      "wheat22_features": 2249.378662109375,
+      "wheat12_features": 238.00582885742188,
+      "wheat32_features": 6865.05322265625,
+      "wheat42_features": 17677.029296875,
+      "wheat52_features": 555.9442749023438,
+      "wheat62_features": 2341.0947265625
+    },
+    "client_val_mae": {
+      "wheat12_features": 316.8159484863281,
+      "wheat22_features": 2307.45654296875,
+      "wheat32_features": 6994.91845703125,
+      "wheat42_features": 17083.3515625,
+      "wheat52_features": 548.7394409179688,
+      "wheat62_features": 2260.382568359375
+    }
+  },
+  {
+    "round": 29,
+    "global_train_mae": 1909.2249755859375,
+    "global_val_mae": 1822.7208251953125,
+    "client_train_mae": {
+      "wheat32_features": 6847.20654296875,
+      "wheat12_features": 238.26678466796875,
+      "wheat42_features": 17652.47265625,
+      "wheat62_features": 2341.43017578125,
+      "wheat22_features": 2245.44677734375,
+      "wheat52_features": 552.8340454101562
+    },
+    "client_val_mae": {
+      "wheat12_features": 325.6418151855469,
+      "wheat22_features": 2326.37841796875,
+      "wheat32_features": 6972.5244140625,
+      "wheat42_features": 17076.07421875,
+      "wheat52_features": 545.1424560546875,
+      "wheat62_features": 2269.50146484375
+    }
+  },
+  {
+    "round": 30,
+    "global_train_mae": 1904.9595947265625,
+    "global_val_mae": 1817.768798828125,
+    "client_train_mae": {
+      "wheat22_features": 2256.683837890625,
+      "wheat32_features": 6817.9384765625,
+      "wheat42_features": 17633.11328125,
+      "wheat62_features": 2357.054443359375,
+      "wheat52_features": 549.47314453125,
+      "wheat12_features": 237.25599670410156
+    },
+    "client_val_mae": {
+      "wheat12_features": 324.6129455566406,
+      "wheat22_features": 2319.3369140625,
+      "wheat32_features": 6947.26953125,
+      "wheat42_features": 17062.26171875,
+      "wheat52_features": 541.89697265625,
+      "wheat62_features": 2268.68798828125
+    }
+  },
+  {
+    "round": 31,
+    "global_train_mae": 1900.8138427734375,
+    "global_val_mae": 1815.317626953125,
+    "client_train_mae": {
+      "wheat22_features": 2256.361328125,
+      "wheat32_features": 6813.89013671875,
+      "wheat62_features": 2356.50146484375,
+      "wheat52_features": 547.7049560546875,
+      "wheat42_features": 17610.306640625,
+      "wheat12_features": 242.56076049804688
+    },
+    "client_val_mae": {
+      "wheat12_features": 318.4476318359375,
+      "wheat22_features": 2315.661865234375,
+      "wheat32_features": 6954.57763671875,
+      "wheat42_features": 17076.552734375,
+      "wheat52_features": 538.5924682617188,
+      "wheat62_features": 2275.0966796875
+    }
+  },
+  {
+    "round": 32,
+    "global_train_mae": 1898.8233642578125,
+    "global_val_mae": 1812.9683837890625,
+    "client_train_mae": {
+      "wheat62_features": 2359.58447265625,
+      "wheat42_features": 17622.986328125,
+      "wheat52_features": 542.1968994140625,
+      "wheat22_features": 2264.618896484375,
+      "wheat12_features": 237.19461059570312,
+      "wheat32_features": 6823.04638671875
+    },
+    "client_val_mae": {
+      "wheat12_features": 330.7156066894531,
+      "wheat22_features": 2319.27685546875,
+      "wheat32_features": 6915.74267578125,
+      "wheat42_features": 17047.9921875,
+      "wheat52_features": 535.3975219726562,
+      "wheat62_features": 2278.00927734375
+    }
+  },
+  {
+    "round": 33,
+    "global_train_mae": 1893.715087890625,
+    "global_val_mae": 1808.1138916015625,
+    "client_train_mae": {
+      "wheat42_features": 17587.19921875,
+      "wheat12_features": 237.8856964111328,
+      "wheat22_features": 2268.3544921875,
+      "wheat62_features": 2362.925048828125,
+      "wheat52_features": 537.9208984375,
+      "wheat32_features": 6794.84716796875
+    },
+    "client_val_mae": {
+      "wheat12_features": 328.87359619140625,
+      "wheat22_features": 2316.327880859375,
+      "wheat32_features": 6893.732421875,
+      "wheat42_features": 17036.326171875,
+      "wheat52_features": 532.0462646484375,
+      "wheat62_features": 2277.91748046875
+    }
+  },
+  {
+    "round": 34,
+    "global_train_mae": 1888.260009765625,
+    "global_val_mae": 1802.8648681640625,
+    "client_train_mae": {
+      "wheat42_features": 17559.28515625,
+      "wheat52_features": 535.2986450195312,
+      "wheat22_features": 2271.26318359375,
+      "wheat12_features": 239.89503479003906,
+      "wheat62_features": 2368.554443359375,
+      "wheat32_features": 6771.04833984375
+    },
+    "client_val_mae": {
+      "wheat12_features": 319.6690368652344,
+      "wheat22_features": 2305.505126953125,
+      "wheat32_features": 6889.287109375,
+      "wheat42_features": 17040.392578125,
+      "wheat52_features": 528.3408813476562,
+      "wheat62_features": 2276.9052734375
+    }
+  },
+  {
+    "round": 35,
+    "global_train_mae": 1886.3040771484375,
+    "global_val_mae": 1799.5452880859375,
+    "client_train_mae": {
+      "wheat12_features": 234.93603515625,
+      "wheat62_features": 2362.50634765625,
+      "wheat32_features": 6778.896484375,
+      "wheat42_features": 17560.498046875,
+      "wheat52_features": 532.3325805664062,
+      "wheat22_features": 2275.885986328125
+    },
+    "client_val_mae": {
+      "wheat12_features": 329.35443115234375,
+      "wheat22_features": 2314.71484375,
+      "wheat32_features": 6848.1796875,
+      "wheat42_features": 17007.68359375,
+      "wheat52_features": 525.585205078125,
+      "wheat62_features": 2277.4443359375
+    }
+  },
+  {
+    "round": 36,
+    "global_train_mae": 1881.76318359375,
+    "global_val_mae": 1794.6905517578125,
+    "client_train_mae": {
+      "wheat42_features": 17514.5234375,
+      "wheat22_features": 2277.92578125,
+      "wheat62_features": 2368.685302734375,
+      "wheat52_features": 528.4507446289062,
+      "wheat32_features": 6748.54345703125,
+      "wheat12_features": 238.09072875976562
+    },
+    "client_val_mae": {
+      "wheat12_features": 328.3714294433594,
+      "wheat22_features": 2308.023681640625,
+      "wheat32_features": 6823.96142578125,
+      "wheat42_features": 16992.931640625,
+      "wheat52_features": 522.4094848632812,
+      "wheat62_features": 2275.833251953125
+    }
+  },
+  {
+    "round": 37,
+    "global_train_mae": 1880.8553466796875,
+    "global_val_mae": 1793.1322021484375,
+    "client_train_mae": {
+      "wheat52_features": 527.3836059570312,
+      "wheat62_features": 2366.9931640625,
+      "wheat32_features": 6726.689453125,
+      "wheat22_features": 2278.12158203125,
+      "wheat42_features": 17495.853515625,
+      "wheat12_features": 236.01678466796875
+    },
+    "client_val_mae": {
+      "wheat12_features": 335.3756408691406,
+      "wheat22_features": 2316.509521484375,
+      "wheat32_features": 6795.2744140625,
+      "wheat42_features": 16967.501953125,
+      "wheat52_features": 521.930419921875,
+      "wheat62_features": 2280.462646484375
+    }
+  },
+  {
+    "round": 38,
+    "global_train_mae": 1874.4896240234375,
+    "global_val_mae": 1787.8662109375,
+    "client_train_mae": {
+      "wheat62_features": 2376.982177734375,
+      "wheat32_features": 6711.8486328125,
+      "wheat52_features": 523.0501708984375,
+      "wheat12_features": 237.8224334716797,
+      "wheat42_features": 17454.546875,
+      "wheat22_features": 2284.85009765625
+    },
+    "client_val_mae": {
+      "wheat12_features": 320.4213562011719,
+      "wheat22_features": 2304.71142578125,
+      "wheat32_features": 6809.421875,
+      "wheat42_features": 16986.62890625,
+      "wheat52_features": 517.3341674804688,
+      "wheat62_features": 2282.550048828125
+    }
+  },
+  {
+    "round": 39,
+    "global_train_mae": 1870.4678955078125,
+    "global_val_mae": 1784.2388916015625,
+    "client_train_mae": {
+      "wheat32_features": 6717.5576171875,
+      "wheat42_features": 17471.01953125,
+      "wheat52_features": 520.803466796875,
+      "wheat12_features": 236.65565490722656,
+      "wheat62_features": 2379.5966796875,
+      "wheat22_features": 2291.9921875
+    },
+    "client_val_mae": {
+      "wheat12_features": 316.88031005859375,
+      "wheat22_features": 2302.746337890625,
+      "wheat32_features": 6800.4716796875,
+      "wheat42_features": 16981.24609375,
+      "wheat52_features": 514.6116333007812,
+      "wheat62_features": 2284.529296875
+    }
+  },
+  {
+    "round": 40,
+    "global_train_mae": 1868.5916748046875,
+    "global_val_mae": 1782.541015625,
+    "client_train_mae": {
+      "wheat52_features": 518.8914184570312,
+      "wheat42_features": 17464.50390625,
+      "wheat62_features": 2384.57421875,
+      "wheat32_features": 6725.34765625,
+      "wheat12_features": 237.35948181152344,
+      "wheat22_features": 2296.23388671875
+    },
+    "client_val_mae": {
+      "wheat12_features": 317.00640869140625,
+      "wheat22_features": 2308.49853515625,
+      "wheat32_features": 6795.47412109375,
+      "wheat42_features": 16977.3515625,
+      "wheat52_features": 512.32421875,
+      "wheat62_features": 2291.94482421875
+    }
+  },
+  {
+    "round": 41,
+    "global_train_mae": 1866.0638427734375,
+    "global_val_mae": 1778.5806884765625,
+    "client_train_mae": {
+      "wheat42_features": 17458.35546875,
+      "wheat12_features": 233.37315368652344,
+      "wheat22_features": 2305.023681640625,
+      "wheat32_features": 6707.9169921875,
+      "wheat62_features": 2389.4482421875,
+      "wheat52_features": 515.5267333984375
+    },
+    "client_val_mae": {
+      "wheat12_features": 321.0091247558594,
+      "wheat22_features": 2315.566162109375,
+      "wheat32_features": 6759.79736328125,
+      "wheat42_features": 16948.130859375,
+      "wheat52_features": 510.709716796875,
+      "wheat62_features": 2291.47021484375
+    }
+  },
+  {
+    "round": 42,
+    "global_train_mae": 1863.1119384765625,
+    "global_val_mae": 1774.4793701171875,
+    "client_train_mae": {
+      "wheat52_features": 513.7236328125,
+      "wheat32_features": 6693.947265625,
+      "wheat42_features": 17419.47265625,
+      "wheat12_features": 230.87017822265625,
+      "wheat62_features": 2398.532958984375,
+      "wheat22_features": 2307.033203125
+    },
+    "client_val_mae": {
+      "wheat12_features": 319.7749328613281,
+      "wheat22_features": 2311.078369140625,
+      "wheat32_features": 6736.6982421875,
+      "wheat42_features": 16929.015625,
+      "wheat52_features": 509.26519775390625,
+      "wheat62_features": 2291.774169921875
+    }
+  },
+  {
+    "round": 43,
+    "global_train_mae": 1858.9549560546875,
+    "global_val_mae": 1769.87158203125,
+    "client_train_mae": {
+      "wheat42_features": 17387.876953125,
+      "wheat22_features": 2309.7705078125,
+      "wheat12_features": 231.3250274658203,
+      "wheat52_features": 511.1816711425781,
+      "wheat32_features": 6666.17919921875,
+      "wheat62_features": 2403.091552734375
+    },
+    "client_val_mae": {
+      "wheat12_features": 314.0698547363281,
+      "wheat22_features": 2307.61767578125,
+      "wheat32_features": 6722.75,
+      "wheat42_features": 16916.58984375,
+      "wheat52_features": 507.5469665527344,
+      "wheat62_features": 2288.197998046875
+    }
+  },
+  {
+    "round": 44,
+    "global_train_mae": 1855.436279296875,
+    "global_val_mae": 1766.886962890625,
+    "client_train_mae": {
+      "wheat12_features": 231.94349670410156,
+      "wheat52_features": 509.9331970214844,
+      "wheat32_features": 6652.69970703125,
+      "wheat62_features": 2404.23681640625,
+      "wheat22_features": 2311.326171875,
+      "wheat42_features": 17375.638671875
+    },
+    "client_val_mae": {
+      "wheat12_features": 312.24322509765625,
+      "wheat22_features": 2305.666748046875,
+      "wheat32_features": 6712.1865234375,
+      "wheat42_features": 16908.21875,
+      "wheat52_features": 505.54827880859375,
+      "wheat62_features": 2286.41015625
+    }
+  },
+  {
+    "round": 45,
+    "global_train_mae": 1853.3216552734375,
+    "global_val_mae": 1764.7672119140625,
+    "client_train_mae": {
+      "wheat32_features": 6655.953125,
+      "wheat52_features": 508.01068115234375,
+      "wheat12_features": 236.44627380371094,
+      "wheat62_features": 2408.494384765625,
+      "wheat22_features": 2316.52490234375,
+      "wheat42_features": 17357.052734375
+    },
+    "client_val_mae": {
+      "wheat12_features": 307.677734375,
+      "wheat22_features": 2304.37255859375,
+      "wheat32_features": 6718.32275390625,
+      "wheat42_features": 16913.802734375,
+      "wheat52_features": 502.80340576171875,
+      "wheat62_features": 2292.8310546875
+    }
+  },
+  {
+    "round": 46,
+    "global_train_mae": 1849.3289794921875,
+    "global_val_mae": 1760.896240234375,
+    "client_train_mae": {
+      "wheat52_features": 506.3226318359375,
+      "wheat42_features": 17362.146484375,
+      "wheat32_features": 6648.978515625,
+      "wheat62_features": 2417.236083984375,
+      "wheat12_features": 232.89959716796875,
+      "wheat22_features": 2323.79345703125
+    },
+    "client_val_mae": {
+      "wheat12_features": 298.83270263671875,
+      "wheat22_features": 2296.31103515625,
+      "wheat32_features": 6716.54296875,
+      "wheat42_features": 16911.517578125,
+      "wheat52_features": 501.546142578125,
+      "wheat62_features": 2293.789794921875
+    }
+  },
+  {
+    "round": 47,
+    "global_train_mae": 1848.1070556640625,
+    "global_val_mae": 1758.6480712890625,
+    "client_train_mae": {
+      "wheat12_features": 229.75796508789062,
+      "wheat22_features": 2325.9990234375,
+      "wheat62_features": 2416.327880859375,
+      "wheat52_features": 505.4142150878906,
+      "wheat32_features": 6656.2724609375,
+      "wheat42_features": 17361.04296875
+    },
+    "client_val_mae": {
+      "wheat12_features": 300.8207702636719,
+      "wheat22_features": 2303.248779296875,
+      "wheat32_features": 6702.1533203125,
+      "wheat42_features": 16899.3359375,
+      "wheat52_features": 499.38714599609375,
+      "wheat62_features": 2295.0458984375
+    }
+  },
+  {
+    "round": 48,
+    "global_train_mae": 1845.4617919921875,
+    "global_val_mae": 1756.42236328125,
+    "client_train_mae": {
+      "wheat22_features": 2337.26513671875,
+      "wheat32_features": 6644.02490234375,
+      "wheat52_features": 505.5428161621094,
+      "wheat12_features": 231.4541473388672,
+      "wheat42_features": 17336.533203125,
+      "wheat62_features": 2423.1376953125
+    },
+    "client_val_mae": {
+      "wheat12_features": 296.84100341796875,
+      "wheat22_features": 2297.8896484375,
+      "wheat32_features": 6706.27099609375,
+      "wheat42_features": 16899.3359375,
+      "wheat52_features": 497.0343017578125,
+      "wheat62_features": 2294.203125
+    }
+  },
+  {
+    "round": 49,
+    "global_train_mae": 1843.351806640625,
+    "global_val_mae": 1754.2275390625,
+    "client_train_mae": {
+      "wheat52_features": 503.4756774902344,
+      "wheat12_features": 229.5851287841797,
+      "wheat42_features": 17343.3046875,
+      "wheat32_features": 6636.447265625,
+      "wheat22_features": 2334.2509765625,
+      "wheat62_features": 2419.4462890625
+    },
+    "client_val_mae": {
+      "wheat12_features": 292.8542175292969,
+      "wheat22_features": 2302.066162109375,
+      "wheat32_features": 6699.7333984375,
+      "wheat42_features": 16885.6640625,
+      "wheat52_features": 497.5260314941406,
+      "wheat62_features": 2297.92236328125
+    }
+  },
+  {
+    "round": 50,
+    "global_train_mae": 1840.696044921875,
+    "global_val_mae": 1751.0189208984375,
+    "client_train_mae": {
+      "wheat12_features": 228.83030700683594,
+      "wheat32_features": 6630.39697265625,
+      "wheat62_features": 2429.01220703125,
+      "wheat42_features": 17320.146484375,
+      "wheat22_features": 2342.934326171875,
+      "wheat52_features": 501.45404052734375
+    },
+    "client_val_mae": {
+      "wheat12_features": 285.25189208984375,
+      "wheat22_features": 2283.23876953125,
+      "wheat32_features": 6694.07373046875,
+      "wheat42_features": 16878.4375,
+      "wheat52_features": 497.99969482421875,
+      "wheat62_features": 2298.376708984375
+    }
+  },
+  {
+    "round": 51,
+    "global_train_mae": 1839.106201171875,
+    "global_val_mae": 1749.2989501953125,
+    "client_train_mae": {
+      "wheat12_features": 226.80609130859375,
+      "wheat62_features": 2426.321044921875,
+      "wheat42_features": 17313.453125,
+      "wheat22_features": 2339.88134765625,
+      "wheat52_features": 500.0769958496094,
+      "wheat32_features": 6614.07177734375
+    },
+    "client_val_mae": {
+      "wheat12_features": 286.60296630859375,
+      "wheat22_features": 2287.82958984375,
+      "wheat32_features": 6683.46875,
+      "wheat42_features": 16867.138671875,
+      "wheat52_features": 496.54742431640625,
+      "wheat62_features": 2301.7802734375
+    }
+  },
+  {
+    "round": 52,
+    "global_train_mae": 1836.81689453125,
+    "global_val_mae": 1746.3553466796875,
+    "client_train_mae": {
+      "wheat62_features": 2436.566162109375,
+      "wheat52_features": 499.1895751953125,
+      "wheat42_features": 17288.3984375,
+      "wheat12_features": 229.92330932617188,
+      "wheat22_features": 2349.0380859375,
+      "wheat32_features": 6618.46044921875
+    },
+    "client_val_mae": {
+      "wheat12_features": 281.8789367675781,
+      "wheat22_features": 2278.413818359375,
+      "wheat32_features": 6673.08056640625,
+      "wheat42_features": 16850.02734375,
+      "wheat52_features": 497.31317138671875,
+      "wheat62_features": 2295.7919921875
+    }
+  },
+  {
+    "round": 53,
+    "global_train_mae": 1837.817138671875,
+    "global_val_mae": 1747.3133544921875,
+    "client_train_mae": {
+      "wheat32_features": 6604.42041015625,
+      "wheat22_features": 2347.7705078125,
+      "wheat12_features": 228.8309326171875,
+      "wheat42_features": 17272.646484375,
+      "wheat62_features": 2430.558837890625,
+      "wheat52_features": 497.6268005371094
+    },
+    "client_val_mae": {
+      "wheat12_features": 291.8679504394531,
+      "wheat22_features": 2297.69140625,
+      "wheat32_features": 6658.1201171875,
+      "wheat42_features": 16836.58203125,
+      "wheat52_features": 496.2457275390625,
+      "wheat62_features": 2302.83935546875
+    }
+  },
+  {
+    "round": 54,
+    "global_train_mae": 1835.2706298828125,
+    "global_val_mae": 1744.760986328125,
+    "client_train_mae": {
+      "wheat32_features": 6603.509765625,
+      "wheat22_features": 2366.92236328125,
+      "wheat62_features": 2447.317626953125,
+      "wheat52_features": 496.5561218261719,
+      "wheat12_features": 228.6479949951172,
+      "wheat42_features": 17252.81640625
+    },
+    "client_val_mae": {
+      "wheat12_features": 286.2650146484375,
+      "wheat22_features": 2288.0185546875,
+      "wheat32_features": 6664.43701171875,
+      "wheat42_features": 16840.1328125,
+      "wheat52_features": 493.6331787109375,
+      "wheat62_features": 2305.4794921875
+    }
+  },
+  {
+    "round": 55,
+    "global_train_mae": 1834.060302734375,
+    "global_val_mae": 1743.6171875,
+    "client_train_mae": {
+      "wheat62_features": 2444.808837890625,
+      "wheat32_features": 6605.2822265625,
+      "wheat12_features": 229.39186096191406,
+      "wheat42_features": 17257.275390625,
+      "wheat52_features": 496.6954345703125,
+      "wheat22_features": 2363.263427734375
+    },
+    "client_val_mae": {
+      "wheat12_features": 278.830810546875,
+      "wheat22_features": 2292.724853515625,
+      "wheat32_features": 6688.244140625,
+      "wheat42_features": 16858.576171875,
+      "wheat52_features": 490.355712890625,
+      "wheat62_features": 2313.175048828125
+    }
+  },
+  {
+    "round": 56,
+    "global_train_mae": 1831.884521484375,
+    "global_val_mae": 1741.4805908203125,
+    "client_train_mae": {
+      "wheat42_features": 17274.865234375,
+      "wheat12_features": 228.35716247558594,
+      "wheat32_features": 6617.9296875,
+      "wheat22_features": 2364.715087890625,
+      "wheat62_features": 2452.448974609375,
+      "wheat52_features": 495.2649841308594
+    },
+    "client_val_mae": {
+      "wheat12_features": 277.4465026855469,
+      "wheat22_features": 2286.6376953125,
+      "wheat32_features": 6664.01904296875,
+      "wheat42_features": 16831.623046875,
+      "wheat52_features": 493.69000244140625,
+      "wheat62_features": 2307.552734375
+    }
+  },
+  {
+    "round": 57,
+    "global_train_mae": 1829.7181396484375,
+    "global_val_mae": 1738.78173828125,
+    "client_train_mae": {
+      "wheat42_features": 17242.884765625,
+      "wheat12_features": 222.84779357910156,
+      "wheat22_features": 2366.502197265625,
+      "wheat62_features": 2449.55224609375,
+      "wheat52_features": 495.23846435546875,
+      "wheat32_features": 6601.2509765625
+    },
+    "client_val_mae": {
+      "wheat12_features": 272.3299865722656,
+      "wheat22_features": 2274.67822265625,
+      "wheat32_features": 6647.77197265625,
+      "wheat42_features": 16811.203125,
+      "wheat52_features": 496.4757080078125,
+      "wheat62_features": 2300.444091796875
+    }
+  },
+  {
+    "round": 58,
+    "global_train_mae": 1827.8399658203125,
+    "global_val_mae": 1737.4652099609375,
+    "client_train_mae": {
+      "wheat62_features": 2447.08642578125,
+      "wheat32_features": 6583.44677734375,
+      "wheat12_features": 224.30043029785156,
+      "wheat22_features": 2361.68359375,
+      "wheat52_features": 493.88714599609375,
+      "wheat42_features": 17217.326171875
+    },
+    "client_val_mae": {
+      "wheat12_features": 272.2272644042969,
+      "wheat22_features": 2274.43701171875,
+      "wheat32_features": 6652.2685546875,
+      "wheat42_features": 16810.74609375,
+      "wheat52_features": 493.2979736328125,
+      "wheat62_features": 2304.5478515625
+    }
+  },
+  {
+    "round": 59,
+    "global_train_mae": 1826.69287109375,
+    "global_val_mae": 1736.03564453125,
+    "client_train_mae": {
+      "wheat22_features": 2367.193603515625,
+      "wheat32_features": 6579.63330078125,
+      "wheat42_features": 17219.05078125,
+      "wheat12_features": 229.77102661132812,
+      "wheat62_features": 2450.279296875,
+      "wheat52_features": 494.4468078613281
+    },
+    "client_val_mae": {
+      "wheat12_features": 265.8741760253906,
+      "wheat22_features": 2263.00732421875,
+      "wheat32_features": 6649.27099609375,
+      "wheat42_features": 16805.875,
+      "wheat52_features": 495.6863098144531,
+      "wheat62_features": 2297.553466796875
+    }
+  },
+  {
+    "round": 60,
+    "global_train_mae": 1827.0809326171875,
+    "global_val_mae": 1736.805419921875,
+    "client_train_mae": {
+      "wheat62_features": 2444.056396484375,
+      "wheat32_features": 6580.0302734375,
+      "wheat52_features": 492.5348815917969,
+      "wheat22_features": 2356.911865234375,
+      "wheat42_features": 17201.310546875,
+      "wheat12_features": 226.13919067382812
+    },
+    "client_val_mae": {
+      "wheat12_features": 268.0630798339844,
+      "wheat22_features": 2268.054443359375,
+      "wheat32_features": 6667.4365234375,
+      "wheat42_features": 16817.591796875,
+      "wheat52_features": 491.5406188964844,
+      "wheat62_features": 2311.19091796875
+    }
+  },
+  {
+    "round": 61,
+    "global_train_mae": 1825.683349609375,
+    "global_val_mae": 1735.3175048828125,
+    "client_train_mae": {
+      "wheat22_features": 2366.163818359375,
+      "wheat62_features": 2453.4287109375,
+      "wheat42_features": 17219.478515625,
+      "wheat32_features": 6597.95458984375,
+      "wheat52_features": 491.38580322265625,
+      "wheat12_features": 223.58021545410156
+    },
+    "client_val_mae": {
+      "wheat12_features": 267.03826904296875,
+      "wheat22_features": 2266.353515625,
+      "wheat32_features": 6666.11474609375,
+      "wheat42_features": 16812.529296875,
+      "wheat52_features": 490.02069091796875,
+      "wheat62_features": 2313.283935546875
+    }
+  },
+  {
+    "round": 62,
+    "global_train_mae": 1825.197021484375,
+    "global_val_mae": 1735.0203857421875,
+    "client_train_mae": {
+      "wheat12_features": 221.98013305664062,
+      "wheat42_features": 17218.44140625,
+      "wheat32_features": 6602.84521484375,
+      "wheat52_features": 490.8170166015625,
+      "wheat22_features": 2377.182861328125,
+      "wheat62_features": 2455.68115234375
+    },
+    "client_val_mae": {
+      "wheat12_features": 268.77850341796875,
+      "wheat22_features": 2270.997314453125,
+      "wheat32_features": 6658.80615234375,
+      "wheat42_features": 16800.07421875,
+      "wheat52_features": 490.5889587402344,
+      "wheat62_features": 2315.900390625
+    }
+  },
+  {
+    "round": 63,
+    "global_train_mae": 1824.0692138671875,
+    "global_val_mae": 1733.2452392578125,
+    "client_train_mae": {
+      "wheat42_features": 17200.841796875,
+      "wheat62_features": 2460.42041015625,
+      "wheat22_features": 2376.21826171875,
+      "wheat32_features": 6583.03857421875,
+      "wheat12_features": 229.9741973876953,
+      "wheat52_features": 490.6082763671875
+    },
+    "client_val_mae": {
+      "wheat12_features": 263.1845397949219,
+      "wheat22_features": 2270.650390625,
+      "wheat32_features": 6668.47265625,
+      "wheat42_features": 16804.544921875,
+      "wheat52_features": 488.69232177734375,
+      "wheat62_features": 2316.243408203125
+    }
+  },
+  {
+    "round": 64,
+    "global_train_mae": 1823.8812255859375,
+    "global_val_mae": 1733.202392578125,
+    "client_train_mae": {
+      "wheat42_features": 17199.986328125,
+      "wheat62_features": 2463.02783203125,
+      "wheat12_features": 223.51718139648438,
+      "wheat22_features": 2371.887451171875,
+      "wheat32_features": 6602.375,
+      "wheat52_features": 490.3771057128906
+    },
+    "client_val_mae": {
+      "wheat12_features": 261.8607177734375,
+      "wheat22_features": 2268.375732421875,
+      "wheat32_features": 6681.0244140625,
+      "wheat42_features": 16809.587890625,
+      "wheat52_features": 486.9051818847656,
+      "wheat62_features": 2319.8623046875
+    }
+  },
+  {
+    "round": 65,
+    "global_train_mae": 1821.81591796875,
+    "global_val_mae": 1731.087158203125,
+    "client_train_mae": {
+      "wheat22_features": 2372.44580078125,
+      "wheat62_features": 2461.074462890625,
+      "wheat42_features": 17208.181640625,
+      "wheat12_features": 221.37156677246094,
+      "wheat52_features": 489.44329833984375,
+      "wheat32_features": 6606.24609375
+    },
+    "client_val_mae": {
+      "wheat12_features": 259.77545166015625,
+      "wheat22_features": 2253.44921875,
+      "wheat32_features": 6670.02001953125,
+      "wheat42_features": 16796.2890625,
+      "wheat52_features": 487.43359375,
+      "wheat62_features": 2316.38916015625
+    }
+  },
+  {
+    "round": 66,
+    "global_train_mae": 1823.79443359375,
+    "global_val_mae": 1734.5025634765625,
+    "client_train_mae": {
+      "wheat12_features": 222.828369140625,
+      "wheat22_features": 2365.952880859375,
+      "wheat62_features": 2453.9736328125,
+      "wheat32_features": 6598.15625,
+      "wheat52_features": 490.23162841796875,
+      "wheat42_features": 17193.82421875
+    },
+    "client_val_mae": {
+      "wheat12_features": 264.5257873535156,
+      "wheat22_features": 2275.04833984375,
+      "wheat32_features": 6696.10498046875,
+      "wheat42_features": 16810.619140625,
+      "wheat52_features": 484.95263671875,
+      "wheat62_features": 2327.6923828125
+    }
+  },
+  {
+    "round": 67,
+    "global_train_mae": 1822.1397705078125,
+    "global_val_mae": 1732.8787841796875,
+    "client_train_mae": {
+      "wheat12_features": 219.80978393554688,
+      "wheat42_features": 17208.869140625,
+      "wheat32_features": 6617.86181640625,
+      "wheat52_features": 488.2047424316406,
+      "wheat62_features": 2468.365478515625,
+      "wheat22_features": 2377.7216796875
+    },
+    "client_val_mae": {
+      "wheat12_features": 263.641357421875,
+      "wheat22_features": 2286.300048828125,
+      "wheat32_features": 6677.681640625,
+      "wheat42_features": 16788.884765625,
+      "wheat52_features": 487.21160888671875,
+      "wheat62_features": 2328.09912109375
+    }
+  },
+  {
+    "round": 68,
+    "global_train_mae": 1819.1448974609375,
+    "global_val_mae": 1729.0064697265625,
+    "client_train_mae": {
+      "wheat62_features": 2471.023193359375,
+      "wheat32_features": 6608.197265625,
+      "wheat22_features": 2383.24609375,
+      "wheat42_features": 17183.888671875,
+      "wheat12_features": 221.66261291503906,
+      "wheat52_features": 486.47412109375
+    },
+    "client_val_mae": {
+      "wheat12_features": 259.5006103515625,
+      "wheat22_features": 2275.823486328125,
+      "wheat32_features": 6655.93310546875,
+      "wheat42_features": 16767.787109375,
+      "wheat52_features": 488.1250305175781,
+      "wheat62_features": 2319.908935546875
+    }
+  },
+  {
+    "round": 69,
+    "global_train_mae": 1818.494140625,
+    "global_val_mae": 1729.6038818359375,
+    "client_train_mae": {
+      "wheat42_features": 17152.490234375,
+      "wheat62_features": 2465.970703125,
+      "wheat22_features": 2382.5498046875,
+      "wheat12_features": 221.06553649902344,
+      "wheat32_features": 6591.00537109375,
+      "wheat52_features": 486.2969970703125
+    },
+    "client_val_mae": {
+      "wheat12_features": 260.2681884765625,
+      "wheat22_features": 2282.3349609375,
+      "wheat32_features": 6668.8349609375,
+      "wheat42_features": 16781.876953125,
+      "wheat52_features": 485.24249267578125,
+      "wheat62_features": 2326.678466796875
+    }
+  },
+  {
+    "round": 70,
+    "global_train_mae": 1817.04736328125,
+    "global_val_mae": 1727.895751953125,
+    "client_train_mae": {
+      "wheat12_features": 219.04779052734375,
+      "wheat42_features": 17168.74609375,
+      "wheat62_features": 2475.635986328125,
+      "wheat22_features": 2390.74658203125,
+      "wheat32_features": 6601.37841796875,
+      "wheat52_features": 485.5252380371094
+    },
+    "client_val_mae": {
+      "wheat12_features": 256.93756103515625,
+      "wheat22_features": 2285.187255859375,
+      "wheat32_features": 6655.31982421875,
+      "wheat42_features": 16760.65625,
+      "wheat52_features": 488.0818786621094,
+      "wheat62_features": 2331.4423828125
+    }
+  },
+  {
+    "round": 71,
+    "global_train_mae": 1818.442626953125,
+    "global_val_mae": 1729.41455078125,
+    "client_train_mae": {
+      "wheat22_features": 2391.7470703125,
+      "wheat12_features": 221.02304077148438,
+      "wheat42_features": 17146.474609375,
+      "wheat52_features": 486.16748046875,
+      "wheat62_features": 2476.534423828125,
+      "wheat32_features": 6587.43701171875
+    },
+    "client_val_mae": {
+      "wheat12_features": 256.41180419921875,
+      "wheat22_features": 2289.340576171875,
+      "wheat32_features": 6679.37353515625,
+      "wheat42_features": 16777.685546875,
+      "wheat52_features": 485.67779541015625,
+      "wheat62_features": 2338.06201171875
+    }
+  },
+  {
+    "round": 72,
+    "global_train_mae": 1817.141357421875,
+    "global_val_mae": 1728.2081298828125,
+    "client_train_mae": {
+      "wheat62_features": 2480.31787109375,
+      "wheat52_features": 484.5437316894531,
+      "wheat22_features": 2392.6240234375,
+      "wheat42_features": 17167.0859375,
+      "wheat12_features": 221.45672607421875,
+      "wheat32_features": 6601.146484375
+    },
+    "client_val_mae": {
+      "wheat12_features": 255.89076232910156,
+      "wheat22_features": 2289.508544921875,
+      "wheat32_features": 6675.30224609375,
+      "wheat42_features": 16775.5,
+      "wheat52_features": 484.6146545410156,
+      "wheat62_features": 2334.033447265625
+    }
+  },
+  {
+    "round": 73,
+    "global_train_mae": 1817.1881103515625,
+    "global_val_mae": 1728.787353515625,
+    "client_train_mae": {
+      "wheat22_features": 2394.31494140625,
+      "wheat42_features": 17156.0859375,
+      "wheat62_features": 2478.589111328125,
+      "wheat12_features": 223.1614990234375,
+      "wheat52_features": 485.4383850097656,
+      "wheat32_features": 6601.64990234375
+    },
+    "client_val_mae": {
+      "wheat12_features": 256.2082214355469,
+      "wheat22_features": 2275.181640625,
+      "wheat32_features": 6684.10107421875,
+      "wheat42_features": 16785.8671875,
+      "wheat52_features": 483.42987060546875,
+      "wheat62_features": 2326.975830078125
+    }
+  },
+  {
+    "round": 74,
+    "global_train_mae": 1814.3223876953125,
+    "global_val_mae": 1724.6993408203125,
+    "client_train_mae": {
+      "wheat42_features": 17176.712890625,
+      "wheat62_features": 2471.052734375,
+      "wheat52_features": 482.8587951660156,
+      "wheat32_features": 6608.82763671875,
+      "wheat12_features": 218.0902862548828,
+      "wheat22_features": 2385.338623046875
+    },
+    "client_val_mae": {
+      "wheat12_features": 251.8247833251953,
+      "wheat22_features": 2280.36669921875,
+      "wheat32_features": 6654.83544921875,
+      "wheat42_features": 16751.26171875,
+      "wheat52_features": 486.1379089355469,
+      "wheat62_features": 2333.8232421875
+    }
+  },
+  {
+    "round": 75,
+    "global_train_mae": 1814.641845703125,
+    "global_val_mae": 1726.4979248046875,
+    "client_train_mae": {
+      "wheat22_features": 2389.976806640625,
+      "wheat62_features": 2472.945556640625,
+      "wheat52_features": 484.7744445800781,
+      "wheat32_features": 6582.64990234375,
+      "wheat42_features": 17132.9296875,
+      "wheat12_features": 219.9352569580078
+    },
+    "client_val_mae": {
+      "wheat12_features": 255.20323181152344,
+      "wheat22_features": 2286.509521484375,
+      "wheat32_features": 6678.93896484375,
+      "wheat42_features": 16773.388671875,
+      "wheat52_features": 481.45611572265625,
+      "wheat62_features": 2330.369384765625
+    }
+  },
+  {
+    "round": 76,
+    "global_train_mae": 1813.15234375,
+    "global_val_mae": 1724.9447021484375,
+    "client_train_mae": {
+      "wheat52_features": 481.80645751953125,
+      "wheat12_features": 220.4024200439453,
+      "wheat32_features": 6603.68994140625,
+      "wheat22_features": 2394.70361328125,
+      "wheat62_features": 2477.518310546875,
+      "wheat42_features": 17167.962890625
+    },
+    "client_val_mae": {
+      "wheat12_features": 251.9518585205078,
+      "wheat22_features": 2287.026123046875,
+      "wheat32_features": 6669.3330078125,
+      "wheat42_features": 16761.31640625,
+      "wheat52_features": 483.1126403808594,
+      "wheat62_features": 2336.314697265625
+    }
+  },
+  {
+    "round": 77,
+    "global_train_mae": 1812.6044921875,
+    "global_val_mae": 1723.998046875,
+    "client_train_mae": {
+      "wheat22_features": 2396.903076171875,
+      "wheat62_features": 2478.2431640625,
+      "wheat52_features": 480.66650390625,
+      "wheat42_features": 17146.60546875,
+      "wheat32_features": 6590.80517578125,
+      "wheat12_features": 216.4626007080078
+    },
+    "client_val_mae": {
+      "wheat12_features": 253.7051239013672,
+      "wheat22_features": 2298.19384765625,
+      "wheat32_features": 6651.34814453125,
+      "wheat42_features": 16740.6484375,
+      "wheat52_features": 484.7137451171875,
+      "wheat62_features": 2351.522216796875
+    }
+  },
+  {
+    "round": 78,
+    "global_train_mae": 1812.3782958984375,
+    "global_val_mae": 1723.6583251953125,
+    "client_train_mae": {
+      "wheat62_features": 2485.982666015625,
+      "wheat42_features": 17117.822265625,
+      "wheat22_features": 2406.37646484375,
+      "wheat12_features": 219.16656494140625,
+      "wheat52_features": 480.3052062988281,
+      "wheat32_features": 6572.39697265625
+    },
+    "client_val_mae": {
+      "wheat12_features": 252.81314086914062,
+      "wheat22_features": 2307.898193359375,
+      "wheat32_features": 6652.07080078125,
+      "wheat42_features": 16736.357421875,
+      "wheat52_features": 484.6527404785156,
+      "wheat62_features": 2359.896240234375
+    }
+  },
+  {
+    "round": 79,
+    "global_train_mae": 1812.526123046875,
+    "global_val_mae": 1724.4390869140625,
+    "client_train_mae": {
+      "wheat42_features": 17105.126953125,
+      "wheat12_features": 218.1622314453125,
+      "wheat62_features": 2492.470458984375,
+      "wheat22_features": 2415.4599609375,
+      "wheat52_features": 480.7666320800781,
+      "wheat32_features": 6585.44140625
+    },
+    "client_val_mae": {
+      "wheat12_features": 255.4920654296875,
+      "wheat22_features": 2303.028564453125,
+      "wheat32_features": 6673.6123046875,
+      "wheat42_features": 16755.642578125,
+      "wheat52_features": 479.43243408203125,
+      "wheat62_features": 2343.982177734375
+    }
+  },
+  {
+    "round": 80,
+    "global_train_mae": 1812.002197265625,
+    "global_val_mae": 1723.53466796875,
+    "client_train_mae": {
+      "wheat62_features": 2487.36083984375,
+      "wheat52_features": 480.0760803222656,
+      "wheat22_features": 2413.03955078125,
+      "wheat42_features": 17137.44921875,
+      "wheat32_features": 6608.97509765625,
+      "wheat12_features": 226.35536193847656
+    },
+    "client_val_mae": {
+      "wheat12_features": 251.6573028564453,
+      "wheat22_features": 2303.14013671875,
+      "wheat32_features": 6673.62353515625,
+      "wheat42_features": 16751.0546875,
+      "wheat52_features": 480.4091796875,
+      "wheat62_features": 2352.553955078125
+    }
+  }
+]

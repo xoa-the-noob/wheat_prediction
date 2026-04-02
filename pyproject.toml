@@ -1,0 +1,14 @@
+[project]
+name = "wheat-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flwr[simulation]>=1.26.1",
+    "numpy>=2.4.2",
+    "pandas>=3.0.0",
+    "rich>=13.9.4",
+    "scikit-learn>=1.8.0",
+    "torch>=2.10.0",
+]

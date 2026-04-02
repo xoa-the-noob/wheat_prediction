@@ -1,0 +1,553 @@
+2026-03-31 22:30:43,396 | INFO | Logging initialized in: logs2/2026-03-31_22-30-43
+2026-03-31 22:30:43,397 | INFO | Config: dataset_dir=dataset  rounds=80  local_epochs=3  mu=1.0  device=cpu  harmonize_yield=True
+2026-03-31 22:30:43,397 | INFO | Loading clients...
+2026-03-31 22:30:43,407 | INFO | [wheat12_features] raw features: 89
+2026-03-31 22:30:43,419 | INFO | [wheat12_features] drop constant column: region_Africa
+2026-03-31 22:30:43,420 | INFO | [wheat12_features] drop constant column: region_USA
+2026-03-31 22:30:43,420 | INFO | [wheat12_features] final features: 87
+2026-03-31 22:30:43,425 | INFO | [wheat22_features] raw features: 89
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: Year
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Albania
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Algeria
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Angola
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Argentina
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Armenia
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Australia
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Austria
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Azerbaijan
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Bangladesh
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Belarus
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Belgium
+2026-03-31 22:30:43,433 | INFO | [wheat22_features] drop constant column: region_Botswana
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Brazil
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Bulgaria
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Burundi
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Cameroon
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Canada
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Chile
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Colombia
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Croatia
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Denmark
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Ecuador
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Egypt
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Eritrea
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Estonia
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Finland
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_France
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Germany
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Greece
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Guatemala
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Honduras
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Hungary
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Iraq
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Ireland
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Italy
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Japan
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Kazakhstan
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Kenya
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Latvia
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Lebanon
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Lesotho
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Libya
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Lithuania
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Madagascar
+2026-03-31 22:30:43,434 | INFO | [wheat22_features] drop constant column: region_Malawi
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Mali
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Mauritania
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Mexico
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Montenegro
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Morocco
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Mozambique
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Namibia
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Nepal
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Netherlands
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_New Zealand
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Niger
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Norway
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Pakistan
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Peru
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Poland
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Portugal
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Qatar
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Romania
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Rwanda
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Saudi Arabia
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Slovenia
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_South Africa
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Spain
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Sudan
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Sweden
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Switzerland
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Tajikistan
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Thailand
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Tunisia
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Turkey
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Uganda
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_Ukraine
+2026-03-31 22:30:43,435 | INFO | [wheat22_features] drop constant column: region_United Kingdom
+2026-03-31 22:30:43,436 | INFO | [wheat22_features] drop constant column: region_Uruguay
+2026-03-31 22:30:43,436 | INFO | [wheat22_features] drop constant column: region_Zambia
+2026-03-31 22:30:43,436 | INFO | [wheat22_features] drop constant column: region_Zimbabwe
+2026-03-31 22:30:43,436 | INFO | [wheat22_features] final features: 7
+2026-03-31 22:30:43,440 | INFO | [wheat32_features] raw features: 89
+2026-03-31 22:30:43,443 | INFO | [wheat32_features] drop all-NaN column: Pesticide_Usage_ml
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Africa
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Albania
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Algeria
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Angola
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Argentina
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Armenia
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Australia
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Austria
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Azerbaijan
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Bangladesh
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Belarus
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Belgium
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Botswana
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Brazil
+2026-03-31 22:30:43,449 | INFO | [wheat32_features] drop constant column: region_Bulgaria
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Burundi
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Cameroon
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Canada
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Chile
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Colombia
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Croatia
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Denmark
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Ecuador
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Egypt
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Eritrea
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Estonia
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Finland
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_France
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Germany
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Greece
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Guatemala
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Honduras
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Hungary
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_India
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Iraq
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Ireland
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Italy
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Japan
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Kazakhstan
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Kenya
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Latvia
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Lebanon
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Lesotho
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Libya
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Lithuania
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Madagascar
+2026-03-31 22:30:43,450 | INFO | [wheat32_features] drop constant column: region_Malawi
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Mali
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Mauritania
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Mexico
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Montenegro
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Morocco
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Mozambique
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Namibia
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Nepal
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Netherlands
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_New Zealand
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Niger
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Norway
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Pakistan
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Peru
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Poland
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Portugal
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Qatar
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Romania
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Rwanda
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Saudi Arabia
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Slovenia
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_South Africa
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Spain
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Sudan
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Sweden
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Switzerland
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Tajikistan
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Thailand
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Tunisia
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_Turkey
+2026-03-31 22:30:43,451 | INFO | [wheat32_features] drop constant column: region_USA
+2026-03-31 22:30:43,452 | INFO | [wheat32_features] drop constant column: region_Uganda
+2026-03-31 22:30:43,452 | INFO | [wheat32_features] drop constant column: region_Ukraine
+2026-03-31 22:30:43,452 | INFO | [wheat32_features] drop constant column: region_United Kingdom
+2026-03-31 22:30:43,452 | INFO | [wheat32_features] drop constant column: region_Uruguay
+2026-03-31 22:30:43,452 | INFO | [wheat32_features] drop constant column: region_Zambia
+2026-03-31 22:30:43,452 | INFO | [wheat32_features] drop constant column: region_Zimbabwe
+2026-03-31 22:30:43,452 | INFO | [wheat32_features] final features: 4
+2026-03-31 22:30:43,455 | INFO | [wheat42_features] raw features: 89
+2026-03-31 22:30:43,457 | INFO | [wheat42_features] drop all-NaN column: Avg_Temperature_C
+2026-03-31 22:30:43,463 | INFO | [wheat42_features] drop constant column: region_Africa
+2026-03-31 22:30:43,463 | INFO | [wheat42_features] drop constant column: region_Albania
+2026-03-31 22:30:43,463 | INFO | [wheat42_features] drop constant column: region_Algeria
+2026-03-31 22:30:43,463 | INFO | [wheat42_features] drop constant column: region_Angola
+2026-03-31 22:30:43,463 | INFO | [wheat42_features] drop constant column: region_Argentina
+2026-03-31 22:30:43,463 | INFO | [wheat42_features] drop constant column: region_Armenia
+2026-03-31 22:30:43,463 | INFO | [wheat42_features] drop constant column: region_Australia
+2026-03-31 22:30:43,463 | INFO | [wheat42_features] drop constant column: region_Austria
+2026-03-31 22:30:43,463 | INFO | [wheat42_features] drop constant column: region_Azerbaijan
+2026-03-31 22:30:43,463 | INFO | [wheat42_features] drop constant column: region_Bangladesh
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Belarus
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Belgium
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Botswana
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Brazil
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Bulgaria
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Burundi
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Cameroon
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Canada
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Chile
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Colombia
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Croatia
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Denmark
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Ecuador
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Egypt
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Eritrea
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Estonia
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Finland
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_France
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Germany
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Greece
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Guatemala
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Honduras
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Hungary
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_India
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Iraq
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Ireland
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Italy
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Japan
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Kazakhstan
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Kenya
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Latvia
+2026-03-31 22:30:43,464 | INFO | [wheat42_features] drop constant column: region_Lebanon
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Lesotho
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Libya
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Lithuania
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Madagascar
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Malawi
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Mali
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Mauritania
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Mexico
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Montenegro
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Morocco
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Mozambique
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Namibia
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Nepal
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Netherlands
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_New Zealand
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Niger
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Norway
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Pakistan
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Peru
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Poland
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Portugal
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Qatar
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Romania
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Rwanda
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Saudi Arabia
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Slovenia
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_South Africa
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Spain
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Sudan
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Sweden
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Switzerland
+2026-03-31 22:30:43,465 | INFO | [wheat42_features] drop constant column: region_Tajikistan
+2026-03-31 22:30:43,466 | INFO | [wheat42_features] drop constant column: region_Thailand
+2026-03-31 22:30:43,466 | INFO | [wheat42_features] drop constant column: region_Tunisia
+2026-03-31 22:30:43,466 | INFO | [wheat42_features] drop constant column: region_Turkey
+2026-03-31 22:30:43,466 | INFO | [wheat42_features] drop constant column: region_USA
+2026-03-31 22:30:43,466 | INFO | [wheat42_features] drop constant column: region_Uganda
+2026-03-31 22:30:43,466 | INFO | [wheat42_features] drop constant column: region_Ukraine
+2026-03-31 22:30:43,466 | INFO | [wheat42_features] drop constant column: region_United Kingdom
+2026-03-31 22:30:43,466 | INFO | [wheat42_features] drop constant column: region_Uruguay
+2026-03-31 22:30:43,466 | INFO | [wheat42_features] drop constant column: region_Zambia
+2026-03-31 22:30:43,466 | INFO | [wheat42_features] drop constant column: region_Zimbabwe
+2026-03-31 22:30:43,466 | INFO | [wheat42_features] final features: 4
+2026-03-31 22:30:43,480 | INFO | [wheat52_features] raw features: 89
+2026-03-31 22:30:43,485 | INFO | [wheat52_features] drop all-NaN column: Pesticide_Usage_ml
+2026-03-31 22:30:43,485 | INFO | [wheat52_features] drop all-NaN column: Year
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Africa
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Albania
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Algeria
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Angola
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Argentina
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Armenia
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Australia
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Austria
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Azerbaijan
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Bangladesh
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Belarus
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Belgium
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Botswana
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Brazil
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Bulgaria
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Burundi
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Cameroon
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Canada
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Chile
+2026-03-31 22:30:43,493 | INFO | [wheat52_features] drop constant column: region_Colombia
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Croatia
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Denmark
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Ecuador
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Egypt
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Eritrea
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Estonia
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Finland
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_France
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Germany
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Greece
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Guatemala
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Honduras
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Hungary
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_India
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Iraq
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Ireland
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Italy
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Japan
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Kazakhstan
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Kenya
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Latvia
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Lebanon
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Lesotho
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Libya
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Lithuania
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Madagascar
+2026-03-31 22:30:43,494 | INFO | [wheat52_features] drop constant column: region_Malawi
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Mali
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Mauritania
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Mexico
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Montenegro
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Morocco
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Mozambique
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Namibia
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Nepal
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Netherlands
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_New Zealand
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Niger
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Norway
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Pakistan
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Peru
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Poland
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Portugal
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Qatar
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Romania
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Rwanda
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Saudi Arabia
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Slovenia
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_South Africa
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Spain
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Sudan
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Sweden
+2026-03-31 22:30:43,495 | INFO | [wheat52_features] drop constant column: region_Switzerland
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] drop constant column: region_Tajikistan
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] drop constant column: region_Thailand
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] drop constant column: region_Tunisia
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] drop constant column: region_Turkey
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] drop constant column: region_USA
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] drop constant column: region_Uganda
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] drop constant column: region_Ukraine
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] drop constant column: region_United Kingdom
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] drop constant column: region_Uruguay
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] drop constant column: region_Zambia
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] drop constant column: region_Zimbabwe
+2026-03-31 22:30:43,496 | INFO | [wheat52_features] final features: 3
+2026-03-31 22:30:43,499 | INFO | [wheat62_features] raw features: 89
+2026-03-31 22:30:43,501 | INFO | [wheat62_features] drop all-NaN column: Pesticide_Usage_ml
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: Year
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Africa
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Albania
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Algeria
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Angola
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Argentina
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Armenia
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Australia
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Austria
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Azerbaijan
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Bangladesh
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Belarus
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Belgium
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Botswana
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Brazil
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Bulgaria
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Burundi
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Cameroon
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Canada
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Chile
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Colombia
+2026-03-31 22:30:43,507 | INFO | [wheat62_features] drop constant column: region_Croatia
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Denmark
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Ecuador
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Egypt
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Eritrea
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Estonia
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Finland
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_France
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Germany
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Greece
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Guatemala
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Honduras
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Hungary
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_India
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Iraq
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Ireland
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Italy
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Japan
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Kazakhstan
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Kenya
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Latvia
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Lebanon
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Lesotho
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Libya
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Lithuania
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Madagascar
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Malawi
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Mali
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Mauritania
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Mexico
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Montenegro
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Morocco
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Mozambique
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Namibia
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Nepal
+2026-03-31 22:30:43,508 | INFO | [wheat62_features] drop constant column: region_Netherlands
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_New Zealand
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Niger
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Norway
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Pakistan
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Peru
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Poland
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Portugal
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Qatar
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Romania
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Rwanda
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Saudi Arabia
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Slovenia
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_South Africa
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Spain
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Sudan
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Sweden
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Switzerland
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Tajikistan
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Thailand
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Tunisia
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Turkey
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_USA
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Uganda
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Ukraine
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_United Kingdom
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Uruguay
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Zambia
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] drop constant column: region_Zimbabwe
+2026-03-31 22:30:43,509 | INFO | [wheat62_features] final features: 3
+2026-03-31 22:30:43,510 | INFO | Union feature size: 89
+2026-03-31 22:30:43,511 | INFO | Clients: 6
+2026-03-31 22:30:43,511 | INFO |   wheat12_features: train=2699  val=579  test=579  features=89
+2026-03-31 22:30:43,511 | INFO |   wheat22_features: train=64  val=14  test=14  features=89
+2026-03-31 22:30:43,511 | INFO |   wheat32_features: train=723  val=155  test=155  features=89
+2026-03-31 22:30:43,511 | INFO |   wheat42_features: train=381  val=82  test=82  features=89
+2026-03-31 22:30:43,511 | INFO |   wheat52_features: train=4357  val=934  test=934  features=89
+2026-03-31 22:30:43,511 | INFO |   wheat62_features: train=44  val=9  test=10  features=89
+2026-03-31 22:30:43,511 | INFO | Harmonize yield: True
+2026-03-31 22:30:43,511 | INFO | Running LOCAL baselines...
+2026-03-31 22:30:47,340 | INFO | ==== LOCAL MODELS ====
+2026-03-31 22:30:47,340 | INFO | wheat12_features | RMSE=446.66 MAE=282.61 R2=0.935 MAPE=11.95
+2026-03-31 22:30:47,340 | INFO | wheat22_features | RMSE=3757.18 MAE=3597.77 R2=-11.045 MAPE=99.79
+2026-03-31 22:30:47,340 | INFO | wheat32_features | RMSE=3926.59 MAE=2925.31 R2=-0.018 MAPE=38.30
+2026-03-31 22:30:47,340 | INFO | wheat42_features | RMSE=21122.58 MAE=17695.88 R2=-2.296 MAPE=222752047104.00
+2026-03-31 22:30:47,340 | INFO | wheat52_features | RMSE=737.48 MAE=577.70 R2=0.380 MAPE=42.27
+2026-03-31 22:30:47,340 | INFO | wheat62_features | RMSE=3675.00 MAE=3644.38 R2=-59.252 MAPE=99.91
+2026-03-31 22:30:47,341 | INFO | Running CENTRALIZED model...
+2026-03-31 22:30:50,528 | INFO | ==== CENTRALIZED ====
+2026-03-31 22:30:50,528 | INFO | centralized     | RMSE=4834.48 MAE=1716.36 R2=0.118 MAPE=26902188032.00
+2026-03-31 22:30:50,528 | INFO | Running FEDERATED learning...
+2026-03-31 22:30:50,528 | INFO | FL config: rounds=80  local_epochs=3  proximal_mu=1.0  lr=0.001  batch_size=32  clients=6
+2026-03-31 22:30:59,492 | INFO | [Round   1] Global Train MAE=3231.94  Global Val MAE=3157.41 | Train MAE: wheat12_features=2027.29  wheat22_features=4153.75  wheat32_features=9770.49  wheat42_features=20255.09  wheat52_features=787.90  wheat62_features=4239.89 | Val MAE: wheat12_features=2303.91  wheat22_features=3615.63  wheat32_features=8934.74  wheat42_features=18578.73  wheat52_features=1359.55  wheat62_features=3925.85
+2026-03-31 22:30:59,809 | INFO | [Round   2] Global Train MAE=2454.56  Global Val MAE=2373.63 | Train MAE: wheat12_features=762.73  wheat22_features=3609.42  wheat32_features=8961.64  wheat42_features=19595.88  wheat52_features=647.57  wheat62_features=3706.37 | Val MAE: wheat12_features=1339.89  wheat22_features=2610.06  wheat32_features=8026.90  wheat42_features=17756.04  wheat52_features=715.70  wheat62_features=3052.35
+2026-03-31 22:31:00,118 | INFO | [Round   3] Global Train MAE=2247.95  Global Val MAE=2151.23 | Train MAE: wheat12_features=456.52  wheat22_features=2715.94  wheat32_features=7837.71  wheat42_features=18577.52  wheat52_features=628.92  wheat62_features=2809.30 | Val MAE: wheat12_features=960.29  wheat22_features=2167.67  wheat32_features=7588.56  wheat42_features=17363.61  wheat52_features=646.62  wheat62_features=2643.32
+2026-03-31 22:31:00,422 | INFO | [Round   4] Global Train MAE=2170.79  Global Val MAE=2068.51 | Train MAE: wheat12_features=351.73  wheat22_features=2318.50  wheat32_features=7359.10  wheat42_features=18117.40  wheat52_features=624.67  wheat62_features=2394.48 | Val MAE: wheat12_features=772.45  wheat22_features=2023.28  wheat32_features=7426.22  wheat42_features=17218.45  wheat52_features=649.32  wheat62_features=2494.26
+2026-03-31 22:31:00,720 | INFO | [Round   5] Global Train MAE=2120.03  Global Val MAE=2017.34 | Train MAE: wheat12_features=296.23  wheat22_features=2195.45  wheat32_features=7194.94  wheat42_features=17945.83  wheat52_features=623.02  wheat62_features=2252.98 | Val MAE: wheat12_features=648.79  wheat22_features=1993.54  wheat32_features=7346.06  wheat42_features=17148.96  wheat52_features=649.40  wheat62_features=2421.64
+2026-03-31 22:31:01,017 | INFO | [Round   6] Global Train MAE=2089.01  Global Val MAE=1988.06 | Train MAE: wheat12_features=275.07  wheat22_features=2149.72  wheat32_features=7119.35  wheat42_features=17865.53  wheat52_features=620.80  wheat62_features=2198.48 | Val MAE: wheat12_features=573.91  wheat22_features=2010.09  wheat32_features=7351.52  wheat42_features=17156.76  wheat52_features=638.32  wheat62_features=2430.27
+2026-03-31 22:31:01,311 | INFO | [Round   7] Global Train MAE=2065.50  Global Val MAE=1966.15 | Train MAE: wheat12_features=266.98  wheat22_features=2164.76  wheat32_features=7121.29  wheat42_features=17872.88  wheat52_features=619.40  wheat62_features=2212.75 | Val MAE: wheat12_features=518.52  wheat22_features=2025.72  wheat32_features=7351.64  wheat42_features=17159.84  wheat52_features=630.49  wheat62_features=2434.21
+2026-03-31 22:31:01,624 | INFO | [Round   8] Global Train MAE=2049.54  Global Val MAE=1952.32 | Train MAE: wheat12_features=260.04  wheat22_features=2174.74  wheat32_features=7127.48  wheat42_features=17874.29  wheat52_features=618.92  wheat62_features=2223.66 | Val MAE: wheat12_features=482.84  wheat22_features=2045.00  wheat32_features=7364.56  wheat42_features=17173.22  wheat52_features=622.59  wheat62_features=2449.89
+2026-03-31 22:31:01,916 | INFO | [Round   9] Global Train MAE=2030.67  Global Val MAE=1934.57 | Train MAE: wheat12_features=254.06  wheat22_features=2193.40  wheat32_features=7140.75  wheat42_features=17890.71  wheat52_features=617.90  wheat62_features=2241.29 | Val MAE: wheat12_features=437.05  wheat22_features=2056.34  wheat32_features=7351.90  wheat42_features=17163.85  wheat52_features=620.13  wheat62_features=2440.69
+2026-03-31 22:31:02,218 | INFO | [Round  10] Global Train MAE=2020.76  Global Val MAE=1926.30 | Train MAE: wheat12_features=254.40  wheat22_features=2191.60  wheat32_features=7125.72  wheat42_features=17880.00  wheat52_features=616.84  wheat62_features=2238.06 | Val MAE: wheat12_features=415.94  wheat22_features=2078.21  wheat32_features=7361.40  wheat42_features=17176.04  wheat52_features=614.42  wheat62_features=2453.33
+2026-03-31 22:31:02,502 | INFO | [Round  11] Global Train MAE=2008.77  Global Val MAE=1914.91 | Train MAE: wheat12_features=251.36  wheat22_features=2208.35  wheat32_features=7141.10  wheat42_features=17890.21  wheat52_features=616.09  wheat62_features=2256.40 | Val MAE: wheat12_features=386.95  wheat22_features=2092.70  wheat32_features=7354.38  wheat42_features=17173.48  wheat52_features=611.98  wheat62_features=2449.84
+2026-03-31 22:31:02,807 | INFO | [Round  12] Global Train MAE=1997.93  Global Val MAE=1904.97 | Train MAE: wheat12_features=249.57  wheat22_features=2213.99  wheat32_features=7130.01  wheat42_features=17885.67  wheat52_features=615.21  wheat62_features=2259.90 | Val MAE: wheat12_features=361.79  wheat22_features=2104.67  wheat32_features=7348.23  wheat42_features=17172.55  wheat52_features=609.65  wheat62_features=2447.06
+2026-03-31 22:31:03,087 | INFO | [Round  13] Global Train MAE=1991.32  Global Val MAE=1899.40 | Train MAE: wheat12_features=247.24  wheat22_features=2216.07  wheat32_features=7128.58  wheat42_features=17882.00  wheat52_features=614.60  wheat62_features=2266.08 | Val MAE: wheat12_features=347.61  wheat22_features=2123.61  wheat32_features=7346.77  wheat42_features=17176.30  wheat52_features=607.48  wheat62_features=2449.90
+2026-03-31 22:31:03,399 | INFO | [Round  14] Global Train MAE=1983.46  Global Val MAE=1891.89 | Train MAE: wheat12_features=249.45  wheat22_features=2225.42  wheat32_features=7115.03  wheat42_features=17887.23  wheat52_features=614.05  wheat62_features=2273.09 | Val MAE: wheat12_features=329.72  wheat22_features=2137.20  wheat32_features=7335.67  wheat42_features=17172.52  wheat52_features=606.37  wheat62_features=2441.66
+2026-03-31 22:31:03,699 | INFO | [Round  15] Global Train MAE=1976.74  Global Val MAE=1885.92 | Train MAE: wheat12_features=245.32  wheat22_features=2229.07  wheat32_features=7112.13  wheat42_features=17871.95  wheat52_features=613.43  wheat62_features=2278.82 | Val MAE: wheat12_features=314.41  wheat22_features=2146.78  wheat32_features=7331.63  wheat42_features=17173.21  wheat52_features=605.01  wheat62_features=2440.20
+2026-03-31 22:31:03,993 | INFO | [Round  16] Global Train MAE=1975.41  Global Val MAE=1886.18 | Train MAE: wheat12_features=246.62  wheat22_features=2231.31  wheat32_features=7106.40  wheat42_features=17873.99  wheat52_features=612.47  wheat62_features=2282.61 | Val MAE: wheat12_features=313.34  wheat22_features=2166.47  wheat32_features=7344.10  wheat42_features=17190.67  wheat52_features=602.11  wheat62_features=2456.75
+2026-03-31 22:31:04,282 | INFO | [Round  17] Global Train MAE=1972.52  Global Val MAE=1884.59 | Train MAE: wheat12_features=246.54  wheat22_features=2247.10  wheat32_features=7121.18  wheat42_features=17889.54  wheat52_features=611.71  wheat62_features=2304.53 | Val MAE: wheat12_features=308.19  wheat22_features=2173.80  wheat32_features=7349.54  wheat42_features=17198.38  wheat52_features=600.50  wheat62_features=2464.58
+2026-03-31 22:31:04,578 | INFO | [Round  18] Global Train MAE=1971.76  Global Val MAE=1884.63 | Train MAE: wheat12_features=242.77  wheat22_features=2253.34  wheat32_features=7116.98  wheat42_features=17898.11  wheat52_features=611.61  wheat62_features=2309.39 | Val MAE: wheat12_features=306.59  wheat22_features=2195.01  wheat32_features=7355.59  wheat42_features=17209.93  wheat52_features=599.15  wheat62_features=2474.55
+2026-03-31 22:31:04,884 | INFO | [Round  19] Global Train MAE=1967.04  Global Val MAE=1879.87 | Train MAE: wheat12_features=245.58  wheat22_features=2268.22  wheat32_features=7136.10  wheat42_features=17911.39  wheat52_features=610.49  wheat62_features=2327.02 | Val MAE: wheat12_features=294.21  wheat22_features=2194.64  wheat32_features=7351.70  wheat42_features=17207.48  wheat52_features=598.68  wheat62_features=2471.34
+2026-03-31 22:31:05,173 | INFO | [Round  20] Global Train MAE=1961.80  Global Val MAE=1873.61 | Train MAE: wheat12_features=241.27  wheat22_features=2264.04  wheat32_features=7124.36  wheat42_features=17904.27  wheat52_features=609.91  wheat62_features=2326.33 | Val MAE: wheat12_features=283.43  wheat22_features=2198.38  wheat32_features=7331.52  wheat42_features=17193.66  wheat52_features=598.14  wheat62_features=2455.53
+2026-03-31 22:31:05,462 | INFO | [Round  21] Global Train MAE=1961.20  Global Val MAE=1873.75 | Train MAE: wheat12_features=244.50  wheat22_features=2254.52  wheat32_features=7101.49  wheat42_features=17886.36  wheat52_features=609.19  wheat62_features=2320.81 | Val MAE: wheat12_features=284.92  wheat22_features=2214.36  wheat32_features=7329.90  wheat42_features=17197.81  wheat52_features=597.13  wheat62_features=2457.17
+2026-03-31 22:31:05,751 | INFO | [Round  22] Global Train MAE=1960.73  Global Val MAE=1874.69 | Train MAE: wheat12_features=240.45  wheat22_features=2262.23  wheat32_features=7106.30  wheat42_features=17887.84  wheat52_features=608.80  wheat62_features=2328.39 | Val MAE: wheat12_features=283.70  wheat22_features=2227.27  wheat32_features=7341.58  wheat42_features=17211.61  wheat52_features=596.21  wheat62_features=2470.03
+2026-03-31 22:31:06,045 | INFO | [Round  23] Global Train MAE=1956.40  Global Val MAE=1868.41 | Train MAE: wheat12_features=239.91  wheat22_features=2274.68  wheat32_features=7118.52  wheat42_features=17904.05  wheat52_features=608.12  wheat62_features=2343.40 | Val MAE: wheat12_features=277.76  wheat22_features=2223.67  wheat32_features=7309.56  wheat42_features=17186.01  wheat52_features=595.86  wheat62_features=2440.31
+2026-03-31 22:31:06,358 | INFO | [Round  24] Global Train MAE=1955.73  Global Val MAE=1867.76 | Train MAE: wheat12_features=244.75  wheat22_features=2255.15  wheat32_features=7089.40  wheat42_features=17875.63  wheat52_features=607.66  wheat62_features=2327.46 | Val MAE: wheat12_features=280.59  wheat22_features=2233.14  wheat32_features=7297.27  wheat42_features=17179.46  wheat52_features=595.46  wheat62_features=2428.85
+2026-03-31 22:31:06,666 | INFO | [Round  25] Global Train MAE=1955.44  Global Val MAE=1869.27 | Train MAE: wheat12_features=241.18  wheat22_features=2252.51  wheat32_features=7076.32  wheat42_features=17858.11  wheat52_features=606.40  wheat62_features=2329.44 | Val MAE: wheat12_features=277.19  wheat22_features=2245.63  wheat32_features=7318.02  wheat42_features=17201.06  wheat52_features=594.71  wheat62_features=2449.58
+2026-03-31 22:31:06,957 | INFO | [Round  26] Global Train MAE=1954.43  Global Val MAE=1868.68 | Train MAE: wheat12_features=240.49  wheat22_features=2271.97  wheat32_features=7098.86  wheat42_features=17885.72  wheat52_features=605.81  wheat62_features=2348.64 | Val MAE: wheat12_features=274.96  wheat22_features=2249.13  wheat32_features=7321.40  wheat42_features=17205.96  wheat52_features=593.89  wheat62_features=2453.21
+2026-03-31 22:31:07,248 | INFO | [Round  27] Global Train MAE=1952.58  Global Val MAE=1866.84 | Train MAE: wheat12_features=235.02  wheat22_features=2273.98  wheat32_features=7102.59  wheat42_features=17891.43  wheat52_features=605.15  wheat62_features=2355.64 | Val MAE: wheat12_features=275.93  wheat22_features=2248.80  wheat32_features=7308.44  wheat42_features=17196.06  wheat52_features=592.95  wheat62_features=2441.09
+2026-03-31 22:31:07,555 | INFO | [Round  28] Global Train MAE=1951.53  Global Val MAE=1865.20 | Train MAE: wheat12_features=238.40  wheat22_features=2267.06  wheat32_features=7087.53  wheat42_features=17879.01  wheat52_features=604.97  wheat62_features=2347.95 | Val MAE: wheat12_features=281.45  wheat22_features=2242.60  wheat32_features=7285.91  wheat42_features=17177.94  wheat52_features=592.03  wheat62_features=2420.28
+2026-03-31 22:31:07,854 | INFO | [Round  29] Global Train MAE=1951.16  Global Val MAE=1866.29 | Train MAE: wheat12_features=238.93  wheat22_features=2250.63  wheat32_features=7064.86  wheat42_features=17848.61  wheat52_features=603.71  wheat62_features=2336.86 | Val MAE: wheat12_features=278.00  wheat22_features=2258.69  wheat32_features=7301.02  wheat42_features=17195.98  wheat52_features=591.75  wheat62_features=2435.67
+2026-03-31 22:31:08,158 | INFO | [Round  30] Global Train MAE=1951.76  Global Val MAE=1866.77 | Train MAE: wheat12_features=235.61  wheat22_features=2267.18  wheat32_features=7084.09  wheat42_features=17870.44  wheat52_features=603.40  wheat62_features=2353.78 | Val MAE: wheat12_features=278.74  wheat22_features=2274.45  wheat32_features=7302.79  wheat42_features=17203.88  wheat52_features=590.94  wheat62_features=2439.80
+2026-03-31 22:31:08,456 | INFO | [Round  31] Global Train MAE=1951.12  Global Val MAE=1865.81 | Train MAE: wheat12_features=233.78  wheat22_features=2273.80  wheat32_features=7087.23  wheat42_features=17873.55  wheat52_features=602.37  wheat62_features=2366.74 | Val MAE: wheat12_features=280.60  wheat22_features=2276.84  wheat32_features=7292.28  wheat42_features=17195.81  wheat52_features=590.48  wheat62_features=2429.15
+2026-03-31 22:31:08,745 | INFO | [Round  32] Global Train MAE=1950.74  Global Val MAE=1867.60 | Train MAE: wheat12_features=236.17  wheat22_features=2270.61  wheat32_features=7084.42  wheat42_features=17864.67  wheat52_features=602.24  wheat62_features=2366.12 | Val MAE: wheat12_features=278.00  wheat22_features=2285.70  wheat32_features=7309.13  wheat42_features=17211.06  wheat52_features=591.10  wheat62_features=2444.05
+2026-03-31 22:31:09,048 | INFO | [Round  33] Global Train MAE=1950.60  Global Val MAE=1866.42 | Train MAE: wheat12_features=235.87  wheat22_features=2283.68  wheat32_features=7096.72  wheat42_features=17879.00  wheat52_features=601.05  wheat62_features=2379.79 | Val MAE: wheat12_features=285.04  wheat22_features=2290.31  wheat32_features=7285.16  wheat42_features=17193.85  wheat52_features=590.12  wheat62_features=2421.27
+2026-03-31 22:31:09,343 | INFO | [Round  34] Global Train MAE=1951.18  Global Val MAE=1866.06 | Train MAE: wheat12_features=233.01  wheat22_features=2275.87  wheat32_features=7070.99  wheat42_features=17855.92  wheat52_features=600.70  wheat62_features=2376.02 | Val MAE: wheat12_features=295.26  wheat22_features=2291.17  wheat32_features=7257.34  wheat42_features=17172.33  wheat52_features=589.87  wheat62_features=2393.32
+2026-03-31 22:31:09,643 | INFO | [Round  35] Global Train MAE=1950.13  Global Val MAE=1866.23 | Train MAE: wheat12_features=237.26  wheat22_features=2267.90  wheat32_features=7049.47  wheat42_features=17826.56  wheat52_features=600.34  wheat62_features=2370.21 | Val MAE: wheat12_features=289.16  wheat22_features=2307.12  wheat32_features=7269.64  wheat42_features=17187.92  wheat52_features=590.20  wheat62_features=2406.09
+2026-03-31 22:31:09,945 | INFO | [Round  36] Global Train MAE=1949.06  Global Val MAE=1865.53 | Train MAE: wheat12_features=238.14  wheat22_features=2284.24  wheat32_features=7061.72  wheat42_features=17843.49  wheat52_features=598.98  wheat62_features=2389.34 | Val MAE: wheat12_features=291.30  wheat22_features=2309.18  wheat32_features=7263.90  wheat42_features=17183.85  wheat52_features=588.86  wheat62_features=2401.67
+2026-03-31 22:31:10,247 | INFO | [Round  37] Global Train MAE=1948.36  Global Val MAE=1865.45 | Train MAE: wheat12_features=236.88  wheat22_features=2282.28  wheat32_features=7053.52  wheat42_features=17833.97  wheat52_features=598.39  wheat62_features=2385.89 | Val MAE: wheat12_features=292.71  wheat22_features=2310.28  wheat32_features=7261.65  wheat42_features=17183.61  wheat52_features=588.23  wheat62_features=2401.15
+2026-03-31 22:31:10,532 | INFO | [Round  38] Global Train MAE=1948.79  Global Val MAE=1865.09 | Train MAE: wheat12_features=231.08  wheat22_features=2282.29  wheat32_features=7049.24  wheat42_features=17833.02  wheat52_features=597.68  wheat62_features=2387.63 | Val MAE: wheat12_features=299.26  wheat22_features=2313.72  wheat32_features=7245.01  wheat42_features=17170.82  wheat52_features=587.46  wheat62_features=2385.47
+2026-03-31 22:31:10,826 | INFO | [Round  39] Global Train MAE=1947.57  Global Val MAE=1864.04 | Train MAE: wheat12_features=236.30  wheat22_features=2277.60  wheat32_features=7045.76  wheat42_features=17818.25  wheat52_features=596.67  wheat62_features=2387.17 | Val MAE: wheat12_features=299.49  wheat22_features=2314.26  wheat32_features=7238.09  wheat42_features=17166.63  wheat52_features=586.83  wheat62_features=2384.68
+2026-03-31 22:31:11,116 | INFO | [Round  40] Global Train MAE=1946.60  Global Val MAE=1864.10 | Train MAE: wheat12_features=232.91  wheat22_features=2280.45  wheat32_features=7028.76  wheat42_features=17808.39  wheat52_features=596.42  wheat62_features=2386.91 | Val MAE: wheat12_features=296.29  wheat22_features=2319.35  wheat32_features=7242.00  wheat42_features=17173.27  wheat52_features=587.57  wheat62_features=2391.77
+2026-03-31 22:31:11,403 | INFO | [Round  41] Global Train MAE=1946.82  Global Val MAE=1863.31 | Train MAE: wheat12_features=237.77  wheat22_features=2287.98  wheat32_features=7034.17  wheat42_features=17809.86  wheat52_features=595.35  wheat62_features=2398.10 | Val MAE: wheat12_features=304.52  wheat22_features=2313.44  wheat32_features=7221.36  wheat42_features=17156.28  wheat52_features=586.07  wheat62_features=2381.13
+2026-03-31 22:31:11,694 | INFO | [Round  42] Global Train MAE=1945.59  Global Val MAE=1862.55 | Train MAE: wheat12_features=235.86  wheat22_features=2281.41  wheat32_features=7013.12  wheat42_features=17788.47  wheat52_features=594.79  wheat62_features=2390.54 | Val MAE: wheat12_features=304.58  wheat22_features=2321.22  wheat32_features=7216.50  wheat42_features=17153.66  wheat52_features=585.51  wheat62_features=2381.58
+2026-03-31 22:31:11,992 | INFO | [Round  43] Global Train MAE=1946.04  Global Val MAE=1862.59 | Train MAE: wheat12_features=234.56  wheat22_features=2280.75  wheat32_features=7014.96  wheat42_features=17783.87  wheat52_features=593.90  wheat62_features=2394.10 | Val MAE: wheat12_features=316.29  wheat22_features=2324.40  wheat32_features=7192.62  wheat42_features=17135.81  wheat52_features=583.90  wheat62_features=2372.11
+2026-03-31 22:31:12,427 | INFO | [Round  44] Global Train MAE=1942.76  Global Val MAE=1861.01 | Train MAE: wheat12_features=232.57  wheat22_features=2275.10  wheat32_features=6996.02  wheat42_features=17757.62  wheat52_features=595.02  wheat62_features=2392.34 | Val MAE: wheat12_features=299.61  wheat22_features=2328.39  wheat32_features=7217.41  wheat42_features=17159.47  wheat52_features=584.83  wheat62_features=2387.02
+2026-03-31 22:31:12,725 | INFO | [Round  45] Global Train MAE=1943.12  Global Val MAE=1861.12 | Train MAE: wheat12_features=232.07  wheat22_features=2289.12  wheat32_features=7014.13  wheat42_features=17786.19  wheat52_features=592.88  wheat62_features=2401.68 | Val MAE: wheat12_features=310.28  wheat22_features=2338.41  wheat32_features=7194.05  wheat42_features=17143.68  wheat52_features=583.61  wheat62_features=2380.69
+2026-03-31 22:31:13,024 | INFO | [Round  46] Global Train MAE=1942.23  Global Val MAE=1860.28 | Train MAE: wheat12_features=231.32  wheat22_features=2286.69  wheat32_features=6995.09  wheat42_features=17760.10  wheat52_features=592.33  wheat62_features=2405.76 | Val MAE: wheat12_features=312.56  wheat22_features=2331.67  wheat32_features=7184.00  wheat42_features=17135.21  wheat52_features=583.16  wheat62_features=2375.32
+2026-03-31 22:31:13,332 | INFO | [Round  47] Global Train MAE=1943.97  Global Val MAE=1861.87 | Train MAE: wheat12_features=231.20  wheat22_features=2281.88  wheat32_features=6986.59  wheat42_features=17748.17  wheat52_features=591.32  wheat62_features=2403.54 | Val MAE: wheat12_features=326.84  wheat22_features=2332.48  wheat32_features=7166.06  wheat42_features=17121.50  wheat52_features=581.58  wheat62_features=2367.20
+2026-03-31 22:31:13,626 | INFO | [Round  48] Global Train MAE=1940.43  Global Val MAE=1859.52 | Train MAE: wheat12_features=231.49  wheat22_features=2276.46  wheat32_features=6972.51  wheat42_features=17728.80  wheat52_features=590.99  wheat62_features=2398.44 | Val MAE: wheat12_features=313.11  wheat22_features=2340.40  wheat32_features=7174.53  wheat42_features=17133.31  wheat52_features=582.97  wheat62_features=2376.62
+2026-03-31 22:31:13,916 | INFO | [Round  49] Global Train MAE=1940.84  Global Val MAE=1859.83 | Train MAE: wheat12_features=227.54  wheat22_features=2292.62  wheat32_features=6971.75  wheat42_features=17736.39  wheat52_features=590.07  wheat62_features=2412.51 | Val MAE: wheat12_features=319.74  wheat22_features=2338.34  wheat32_features=7161.55  wheat42_features=17120.67  wheat52_features=582.81  wheat62_features=2371.76
+2026-03-31 22:31:14,205 | INFO | [Round  50] Global Train MAE=1944.14  Global Val MAE=1861.00 | Train MAE: wheat12_features=231.39  wheat22_features=2286.76  wheat32_features=6968.49  wheat42_features=17725.73  wheat52_features=589.53  wheat62_features=2411.62 | Val MAE: wheat12_features=344.95  wheat22_features=2339.70  wheat32_features=7119.97  wheat42_features=17086.25  wheat52_features=579.49  wheat62_features=2350.55
+2026-03-31 22:31:14,502 | INFO | [Round  51] Global Train MAE=1939.37  Global Val MAE=1857.33 | Train MAE: wheat12_features=227.59  wheat22_features=2272.69  wheat32_features=6937.70  wheat42_features=17677.55  wheat52_features=589.51  wheat62_features=2405.02 | Val MAE: wheat12_features=325.54  wheat22_features=2343.82  wheat32_features=7140.45  wheat42_features=17105.54  wheat52_features=579.29  wheat62_features=2362.18
+2026-03-31 22:31:14,823 | INFO | [Round  52] Global Train MAE=1938.52  Global Val MAE=1856.61 | Train MAE: wheat12_features=227.28  wheat22_features=2282.14  wheat32_features=6945.35  wheat42_features=17703.48  wheat52_features=587.83  wheat62_features=2412.38 | Val MAE: wheat12_features=327.16  wheat22_features=2348.11  wheat32_features=7131.86  wheat42_features=17100.32  wheat52_features=578.76  wheat62_features=2360.63
+2026-03-31 22:31:15,138 | INFO | [Round  53] Global Train MAE=1943.46  Global Val MAE=1860.01 | Train MAE: wheat12_features=227.01  wheat22_features=2285.64  wheat32_features=6945.67  wheat42_features=17687.75  wheat52_features=587.08  wheat62_features=2420.88 | Val MAE: wheat12_features=360.35  wheat22_features=2345.16  wheat32_features=7084.04  wheat42_features=17062.03  wheat52_features=576.21  wheat62_features=2336.81
+2026-03-31 22:31:15,446 | INFO | [Round  54] Global Train MAE=1937.63  Global Val MAE=1855.16 | Train MAE: wheat12_features=228.39  wheat22_features=2274.56  wheat32_features=6899.43  wheat42_features=17637.16  wheat52_features=586.09  wheat62_features=2412.57 | Val MAE: wheat12_features=339.24  wheat22_features=2342.22  wheat32_features=7100.01  wheat42_features=17075.45  wheat52_features=576.22  wheat62_features=2344.99
+2026-03-31 22:31:15,741 | INFO | [Round  55] Global Train MAE=1934.07  Global Val MAE=1852.69 | Train MAE: wheat12_features=223.94  wheat22_features=2280.37  wheat32_features=6914.10  wheat42_features=17648.35  wheat52_features=585.43  wheat62_features=2416.39 | Val MAE: wheat12_features=328.24  wheat22_features=2359.71  wheat32_features=7102.67  wheat42_features=17082.26  wheat52_features=576.94  wheat62_features=2355.73
+2026-03-31 22:31:16,044 | INFO | [Round  56] Global Train MAE=1937.52  Global Val MAE=1854.75 | Train MAE: wheat12_features=228.03  wheat22_features=2296.00  wheat32_features=6920.93  wheat42_features=17653.04  wheat52_features=584.17  wheat62_features=2435.53 | Val MAE: wheat12_features=353.72  wheat22_features=2347.01  wheat32_features=7062.35  wheat42_features=17044.86  wheat52_features=575.45  wheat62_features=2333.27
+2026-03-31 22:31:16,339 | INFO | [Round  57] Global Train MAE=1930.78  Global Val MAE=1848.80 | Train MAE: wheat12_features=229.92  wheat22_features=2290.02  wheat32_features=6875.37  wheat42_features=17609.85  wheat52_features=582.96  wheat62_features=2424.64 | Val MAE: wheat12_features=327.42  wheat22_features=2348.67  wheat32_features=7080.30  wheat42_features=17062.24  wheat52_features=575.82  wheat62_features=2344.55
+2026-03-31 22:31:16,643 | INFO | [Round  58] Global Train MAE=1929.54  Global Val MAE=1847.11 | Train MAE: wheat12_features=228.86  wheat22_features=2298.20  wheat32_features=6889.67  wheat42_features=17625.91  wheat52_features=581.36  wheat62_features=2432.94 | Val MAE: wheat12_features=330.45  wheat22_features=2354.57  wheat32_features=7064.24  wheat42_features=17050.30  wheat52_features=574.40  wheat62_features=2340.08
+2026-03-31 22:31:16,956 | INFO | [Round  59] Global Train MAE=1930.39  Global Val MAE=1847.58 | Train MAE: wheat12_features=224.74  wheat22_features=2304.66  wheat32_features=6881.09  wheat42_features=17607.07  wheat52_features=580.50  wheat62_features=2443.10 | Val MAE: wheat12_features=343.74  wheat22_features=2354.02  wheat32_features=7040.88  wheat42_features=17031.53  wheat52_features=572.69  wheat62_features=2329.74
+2026-03-31 22:31:17,253 | INFO | [Round  60] Global Train MAE=1929.38  Global Val MAE=1846.09 | Train MAE: wheat12_features=231.61  wheat22_features=2304.93  wheat32_features=6848.67  wheat42_features=17583.71  wheat52_features=580.52  wheat62_features=2439.75 | Val MAE: wheat12_features=344.14  wheat22_features=2349.73  wheat32_features=7032.53  wheat42_features=17024.31  wheat52_features=571.75  wheat62_features=2324.48
+2026-03-31 22:31:17,549 | INFO | [Round  61] Global Train MAE=1926.31  Global Val MAE=1843.91 | Train MAE: wheat12_features=227.97  wheat22_features=2304.85  wheat32_features=6852.87  wheat42_features=17572.60  wheat52_features=579.17  wheat62_features=2437.65 | Val MAE: wheat12_features=340.21  wheat22_features=2356.49  wheat32_features=7026.24  wheat42_features=17024.00  wheat52_features=571.00  wheat62_features=2325.50
+2026-03-31 22:31:17,850 | INFO | [Round  62] Global Train MAE=1923.30  Global Val MAE=1841.54 | Train MAE: wheat12_features=227.16  wheat22_features=2315.37  wheat32_features=6840.11  wheat42_features=17561.68  wheat52_features=578.21  wheat62_features=2443.09 | Val MAE: wheat12_features=333.30  wheat22_features=2356.24  wheat32_features=7026.79  wheat42_features=17023.71  wheat52_features=570.70  wheat62_features=2328.08
+2026-03-31 22:31:18,144 | INFO | [Round  63] Global Train MAE=1923.40  Global Val MAE=1840.58 | Train MAE: wheat12_features=225.10  wheat22_features=2329.59  wheat32_features=6844.58  wheat42_features=17559.24  wheat52_features=577.43  wheat62_features=2450.81 | Val MAE: wheat12_features=342.51  wheat22_features=2352.02  wheat32_features=7003.02  wheat42_features=17005.33  wheat52_features=568.82  wheat62_features=2323.76
+2026-03-31 22:31:18,455 | INFO | [Round  64] Global Train MAE=1924.01  Global Val MAE=1840.48 | Train MAE: wheat12_features=225.64  wheat22_features=2330.89  wheat32_features=6824.58  wheat42_features=17536.89  wheat52_features=575.92  wheat62_features=2450.42 | Val MAE: wheat12_features=355.77  wheat22_features=2355.43  wheat32_features=6974.52  wheat42_features=16985.42  wheat52_features=566.86  wheat62_features=2321.79
+2026-03-31 22:31:18,765 | INFO | [Round  65] Global Train MAE=1924.47  Global Val MAE=1839.62 | Train MAE: wheat12_features=227.83  wheat22_features=2342.39  wheat32_features=6802.47  wheat42_features=17502.39  wheat52_features=575.13  wheat62_features=2451.44 | Val MAE: wheat12_features=363.92  wheat22_features=2364.39  wheat32_features=6951.61  wheat42_features=16966.14  wheat52_features=565.47  wheat62_features=2328.95
+2026-03-31 22:31:19,075 | INFO | [Round  66] Global Train MAE=1920.37  Global Val MAE=1836.32 | Train MAE: wheat12_features=226.71  wheat22_features=2348.77  wheat32_features=6790.98  wheat42_features=17473.21  wheat52_features=574.72  wheat62_features=2458.11 | Val MAE: wheat12_features=352.35  wheat22_features=2358.54  wheat32_features=6958.51  wheat42_features=16969.40  wheat52_features=565.06  wheat62_features=2326.94
+2026-03-31 22:31:19,377 | INFO | [Round  67] Global Train MAE=1918.16  Global Val MAE=1835.02 | Train MAE: wheat12_features=227.80  wheat22_features=2351.53  wheat32_features=6789.21  wheat42_features=17478.35  wheat52_features=573.29  wheat62_features=2458.17 | Val MAE: wheat12_features=348.83  wheat22_features=2363.19  wheat32_features=6955.37  wheat42_features=16966.66  wheat52_features=565.32  wheat62_features=2342.90
+2026-03-31 22:31:19,685 | INFO | [Round  68] Global Train MAE=1914.36  Global Val MAE=1831.67 | Train MAE: wheat12_features=229.36  wheat22_features=2367.67  wheat32_features=6783.90  wheat42_features=17471.76  wheat52_features=572.76  wheat62_features=2468.96 | Val MAE: wheat12_features=337.82  wheat22_features=2367.53  wheat32_features=6953.62  wheat42_features=16966.92  wheat52_features=565.89  wheat62_features=2353.10
+2026-03-31 22:31:19,981 | INFO | [Round  69] Global Train MAE=1910.43  Global Val MAE=1828.60 | Train MAE: wheat12_features=233.31  wheat22_features=2380.81  wheat32_features=6782.78  wheat42_features=17469.60  wheat52_features=571.86  wheat62_features=2475.33 | Val MAE: wheat12_features=329.00  wheat22_features=2384.47  wheat32_features=6950.50  wheat42_features=16969.48  wheat52_features=565.41  wheat62_features=2368.02
+2026-03-31 22:31:20,279 | INFO | [Round  70] Global Train MAE=1909.24  Global Val MAE=1826.56 | Train MAE: wheat12_features=223.43  wheat22_features=2398.59  wheat32_features=6794.68  wheat42_features=17462.34  wheat52_features=571.44  wheat62_features=2490.13 | Val MAE: wheat12_features=328.17  wheat22_features=2384.58  wheat32_features=6939.94  wheat42_features=16964.02  wheat52_features=564.25  wheat62_features=2372.33
+2026-03-31 22:31:20,587 | INFO | [Round  71] Global Train MAE=1908.60  Global Val MAE=1825.13 | Train MAE: wheat12_features=225.69  wheat22_features=2404.09  wheat32_features=6789.37  wheat42_features=17449.75  wheat52_features=569.63  wheat62_features=2490.57 | Val MAE: wheat12_features=335.42  wheat22_features=2378.08  wheat32_features=6920.68  wheat42_features=16943.56  wheat52_features=562.08  wheat62_features=2376.18
+2026-03-31 22:31:20,888 | INFO | [Round  72] Global Train MAE=1908.74  Global Val MAE=1825.49 | Train MAE: wheat12_features=222.57  wheat22_features=2406.51  wheat32_features=6768.08  wheat42_features=17422.94  wheat52_features=568.40  wheat62_features=2485.52 | Val MAE: wheat12_features=344.99  wheat22_features=2375.54  wheat32_features=6902.43  wheat42_features=16925.23  wheat52_features=561.38  wheat62_features=2390.04
+2026-03-31 22:31:21,193 | INFO | [Round  73] Global Train MAE=1904.43  Global Val MAE=1821.66 | Train MAE: wheat12_features=228.24  wheat22_features=2417.58  wheat32_features=6739.93  wheat42_features=17398.28  wheat52_features=568.11  wheat62_features=2485.17 | Val MAE: wheat12_features=331.73  wheat22_features=2374.07  wheat32_features=6907.45  wheat42_features=16931.54  wheat52_features=560.95  wheat62_features=2391.87
+2026-03-31 22:31:21,488 | INFO | [Round  74] Global Train MAE=1904.02  Global Val MAE=1821.59 | Train MAE: wheat12_features=222.28  wheat22_features=2426.45  wheat32_features=6752.78  wheat42_features=17401.44  wheat52_features=567.17  wheat62_features=2491.29 | Val MAE: wheat12_features=339.84  wheat22_features=2377.54  wheat32_features=6889.65  wheat42_features=16916.77  wheat52_features=559.89  wheat62_features=2401.32
+2026-03-31 22:31:21,789 | INFO | [Round  75] Global Train MAE=1901.10  Global Val MAE=1819.02 | Train MAE: wheat12_features=224.70  wheat22_features=2434.80  wheat32_features=6737.02  wheat42_features=17378.78  wheat52_features=566.86  wheat62_features=2492.47 | Val MAE: wheat12_features=331.30  wheat22_features=2377.01  wheat32_features=6892.11  wheat42_features=16920.86  wheat52_features=559.51  wheat62_features=2406.28
+2026-03-31 22:31:22,092 | INFO | [Round  76] Global Train MAE=1899.68  Global Val MAE=1816.66 | Train MAE: wheat12_features=223.84  wheat22_features=2449.91  wheat32_features=6729.42  wheat42_features=17380.14  wheat52_features=564.93  wheat62_features=2498.19 | Val MAE: wheat12_features=333.06  wheat22_features=2376.57  wheat32_features=6877.75  wheat42_features=16904.49  wheat52_features=557.69  wheat62_features=2413.71
+2026-03-31 22:31:22,390 | INFO | [Round  77] Global Train MAE=1898.88  Global Val MAE=1815.66 | Train MAE: wheat12_features=227.88  wheat22_features=2455.62  wheat32_features=6736.52  wheat42_features=17358.13  wheat52_features=564.55  wheat62_features=2498.80 | Val MAE: wheat12_features=337.14  wheat22_features=2376.46  wheat32_features=6866.14  wheat42_features=16893.36  wheat52_features=556.13  wheat62_features=2418.51
+2026-03-31 22:31:22,675 | INFO | [Round  78] Global Train MAE=1898.60  Global Val MAE=1815.01 | Train MAE: wheat12_features=226.68  wheat22_features=2470.36  wheat32_features=6711.77  wheat42_features=17340.24  wheat52_features=563.04  wheat62_features=2502.67 | Val MAE: wheat12_features=345.85  wheat22_features=2370.37  wheat32_features=6847.59  wheat42_features=16873.02  wheat52_features=554.35  wheat62_features=2428.38
+2026-03-31 22:31:22,969 | INFO | [Round  79] Global Train MAE=1895.86  Global Val MAE=1812.01 | Train MAE: wheat12_features=225.73  wheat22_features=2476.52  wheat32_features=6701.78  wheat42_features=17316.20  wheat52_features=562.34  wheat62_features=2500.66 | Val MAE: wheat12_features=337.03  wheat22_features=2378.29  wheat32_features=6846.22  wheat42_features=16872.55  wheat52_features=554.12  wheat62_features=2444.57
+2026-03-31 22:31:23,274 | INFO | [Round  80] Global Train MAE=1896.05  Global Val MAE=1812.05 | Train MAE: wheat12_features=221.87  wheat22_features=2496.60  wheat32_features=6711.13  wheat42_features=17308.35  wheat52_features=561.53  wheat62_features=2514.25 | Val MAE: wheat12_features=343.27  wheat22_features=2368.65  wheat32_features=6835.17  wheat42_features=16855.69  wheat52_features=553.77  wheat62_features=2444.90
+2026-03-31 22:31:23,311 | INFO | ==== FEDERATED POOLED ====
+2026-03-31 22:31:23,311 | INFO | fedprox         | RMSE=5117.54 MAE=1866.43 R2=0.012 MAPE=20723953664.00
+2026-03-31 22:31:23,311 | INFO | ==== FEDERATED PER CLIENT ====
+2026-03-31 22:31:23,311 | INFO | wheat12_features | RMSE=555.22 MAE=366.62 R2=0.899 MAPE=14.77
+2026-03-31 22:31:23,311 | INFO | wheat22_features | RMSE=2429.33 MAE=1943.17 R2=-4.036 MAPE=63.94
+2026-03-31 22:31:23,311 | INFO | wheat32_features | RMSE=8309.15 MAE=6980.49 R2=-3.560 MAPE=65.86
+2026-03-31 22:31:23,311 | INFO | wheat42_features | RMSE=20660.43 MAE=17756.46 R2=-2.153 MAPE=448345047040.00
+2026-03-31 22:31:23,311 | INFO | wheat52_features | RMSE=706.07 MAE=558.65 R2=0.432 MAPE=43.04
+2026-03-31 22:31:23,311 | INFO | wheat62_features | RMSE=1714.32 MAE=1177.79 R2=-12.111 MAPE=30.09
+2026-03-31 22:31:23,313 | INFO | Experiment finished.

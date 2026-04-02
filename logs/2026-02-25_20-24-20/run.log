@@ -1,0 +1,466 @@
+2026-02-25 20:24:20,095 | INFO | Logging initialized in: logs/2026-02-25_20-24-20
+2026-02-25 20:24:20,096 | INFO | Loading clients...
+2026-02-25 20:24:20,107 | INFO | [wheat12_features] raw features: 89
+2026-02-25 20:24:20,119 | INFO | [wheat12_features] drop constant column: region_Africa
+2026-02-25 20:24:20,121 | INFO | [wheat12_features] drop constant column: region_USA
+2026-02-25 20:24:20,121 | INFO | [wheat12_features] final features: 87
+2026-02-25 20:24:20,126 | INFO | [wheat22_features] raw features: 89
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: Year
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Albania
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Algeria
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Angola
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Argentina
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Armenia
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Australia
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Austria
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Azerbaijan
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Bangladesh
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Belarus
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Belgium
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Botswana
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Brazil
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Bulgaria
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Burundi
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Cameroon
+2026-02-25 20:24:20,135 | INFO | [wheat22_features] drop constant column: region_Canada
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Chile
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Colombia
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Croatia
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Denmark
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Ecuador
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Egypt
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Eritrea
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Estonia
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Finland
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_France
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Germany
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Greece
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Guatemala
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Honduras
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Hungary
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Iraq
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Ireland
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Italy
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Japan
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Kazakhstan
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Kenya
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Latvia
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Lebanon
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Lesotho
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Libya
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Lithuania
+2026-02-25 20:24:20,136 | INFO | [wheat22_features] drop constant column: region_Madagascar
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Malawi
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Mali
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Mauritania
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Mexico
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Montenegro
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Morocco
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Mozambique
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Namibia
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Nepal
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Netherlands
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_New Zealand
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Niger
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Norway
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Pakistan
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Peru
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Poland
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Portugal
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Qatar
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Romania
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Rwanda
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Saudi Arabia
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Slovenia
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_South Africa
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Spain
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Sudan
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Sweden
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Switzerland
+2026-02-25 20:24:20,137 | INFO | [wheat22_features] drop constant column: region_Tajikistan
+2026-02-25 20:24:20,138 | INFO | [wheat22_features] drop constant column: region_Thailand
+2026-02-25 20:24:20,138 | INFO | [wheat22_features] drop constant column: region_Tunisia
+2026-02-25 20:24:20,138 | INFO | [wheat22_features] drop constant column: region_Turkey
+2026-02-25 20:24:20,138 | INFO | [wheat22_features] drop constant column: region_Uganda
+2026-02-25 20:24:20,138 | INFO | [wheat22_features] drop constant column: region_Ukraine
+2026-02-25 20:24:20,138 | INFO | [wheat22_features] drop constant column: region_United Kingdom
+2026-02-25 20:24:20,138 | INFO | [wheat22_features] drop constant column: region_Uruguay
+2026-02-25 20:24:20,138 | INFO | [wheat22_features] drop constant column: region_Zambia
+2026-02-25 20:24:20,138 | INFO | [wheat22_features] drop constant column: region_Zimbabwe
+2026-02-25 20:24:20,138 | INFO | [wheat22_features] final features: 7
+2026-02-25 20:24:20,143 | INFO | [wheat32_features] raw features: 89
+2026-02-25 20:24:20,145 | INFO | [wheat32_features] drop all-NaN column: Pesticide_Usage_ml
+2026-02-25 20:24:20,152 | INFO | [wheat32_features] drop constant column: region_Africa
+2026-02-25 20:24:20,152 | INFO | [wheat32_features] drop constant column: region_Albania
+2026-02-25 20:24:20,152 | INFO | [wheat32_features] drop constant column: region_Algeria
+2026-02-25 20:24:20,152 | INFO | [wheat32_features] drop constant column: region_Angola
+2026-02-25 20:24:20,152 | INFO | [wheat32_features] drop constant column: region_Argentina
+2026-02-25 20:24:20,152 | INFO | [wheat32_features] drop constant column: region_Armenia
+2026-02-25 20:24:20,152 | INFO | [wheat32_features] drop constant column: region_Australia
+2026-02-25 20:24:20,152 | INFO | [wheat32_features] drop constant column: region_Austria
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Azerbaijan
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Bangladesh
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Belarus
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Belgium
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Botswana
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Brazil
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Bulgaria
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Burundi
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Cameroon
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Canada
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Chile
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Colombia
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Croatia
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Denmark
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Ecuador
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Egypt
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Eritrea
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Estonia
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Finland
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_France
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Germany
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Greece
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Guatemala
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Honduras
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_Hungary
+2026-02-25 20:24:20,153 | INFO | [wheat32_features] drop constant column: region_India
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Iraq
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Ireland
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Italy
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Japan
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Kazakhstan
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Kenya
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Latvia
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Lebanon
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Lesotho
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Libya
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Lithuania
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Madagascar
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Malawi
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Mali
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Mauritania
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Mexico
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Montenegro
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Morocco
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Mozambique
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Namibia
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Nepal
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Netherlands
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_New Zealand
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Niger
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Norway
+2026-02-25 20:24:20,154 | INFO | [wheat32_features] drop constant column: region_Pakistan
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Peru
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Poland
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Portugal
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Qatar
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Romania
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Rwanda
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Saudi Arabia
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Slovenia
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_South Africa
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Spain
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Sudan
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Sweden
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Switzerland
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Tajikistan
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Thailand
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Tunisia
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Turkey
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_USA
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Uganda
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Ukraine
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_United Kingdom
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Uruguay
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Zambia
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] drop constant column: region_Zimbabwe
+2026-02-25 20:24:20,155 | INFO | [wheat32_features] final features: 4
+2026-02-25 20:24:20,159 | INFO | [wheat42_features] raw features: 89
+2026-02-25 20:24:20,161 | INFO | [wheat42_features] drop all-NaN column: Avg_Temperature_C
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Africa
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Albania
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Algeria
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Angola
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Argentina
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Armenia
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Australia
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Austria
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Azerbaijan
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Bangladesh
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Belarus
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Belgium
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Botswana
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Brazil
+2026-02-25 20:24:20,168 | INFO | [wheat42_features] drop constant column: region_Bulgaria
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Burundi
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Cameroon
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Canada
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Chile
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Colombia
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Croatia
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Denmark
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Ecuador
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Egypt
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Eritrea
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Estonia
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Finland
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_France
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Germany
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Greece
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Guatemala
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Honduras
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Hungary
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_India
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Iraq
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Ireland
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Italy
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Japan
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Kazakhstan
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Kenya
+2026-02-25 20:24:20,169 | INFO | [wheat42_features] drop constant column: region_Latvia
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Lebanon
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Lesotho
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Libya
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Lithuania
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Madagascar
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Malawi
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Mali
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Mauritania
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Mexico
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Montenegro
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Morocco
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Mozambique
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Namibia
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Nepal
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Netherlands
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_New Zealand
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Niger
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Norway
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Pakistan
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Peru
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Poland
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Portugal
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Qatar
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Romania
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Rwanda
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Saudi Arabia
+2026-02-25 20:24:20,170 | INFO | [wheat42_features] drop constant column: region_Slovenia
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_South Africa
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Spain
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Sudan
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Sweden
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Switzerland
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Tajikistan
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Thailand
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Tunisia
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Turkey
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_USA
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Uganda
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Ukraine
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_United Kingdom
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Uruguay
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Zambia
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] drop constant column: region_Zimbabwe
+2026-02-25 20:24:20,171 | INFO | [wheat42_features] final features: 4
+2026-02-25 20:24:20,187 | INFO | [wheat52_features] raw features: 89
+2026-02-25 20:24:20,192 | INFO | [wheat52_features] drop all-NaN column: Pesticide_Usage_ml
+2026-02-25 20:24:20,192 | INFO | [wheat52_features] drop all-NaN column: Year
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Africa
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Albania
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Algeria
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Angola
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Argentina
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Armenia
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Australia
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Austria
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Azerbaijan
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Bangladesh
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Belarus
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Belgium
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Botswana
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Brazil
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Bulgaria
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Burundi
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Cameroon
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Canada
+2026-02-25 20:24:20,201 | INFO | [wheat52_features] drop constant column: region_Chile
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Colombia
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Croatia
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Denmark
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Ecuador
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Egypt
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Eritrea
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Estonia
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Finland
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_France
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Germany
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Greece
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Guatemala
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Honduras
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Hungary
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_India
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Iraq
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Ireland
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Italy
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Japan
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Kazakhstan
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Kenya
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Latvia
+2026-02-25 20:24:20,202 | INFO | [wheat52_features] drop constant column: region_Lebanon
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Lesotho
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Libya
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Lithuania
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Madagascar
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Malawi
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Mali
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Mauritania
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Mexico
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Montenegro
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Morocco
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Mozambique
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Namibia
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Nepal
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Netherlands
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_New Zealand
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Niger
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Norway
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Pakistan
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Peru
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Poland
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Portugal
+2026-02-25 20:24:20,203 | INFO | [wheat52_features] drop constant column: region_Qatar
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Romania
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Rwanda
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Saudi Arabia
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Slovenia
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_South Africa
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Spain
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Sudan
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Sweden
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Switzerland
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Tajikistan
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Thailand
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Tunisia
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Turkey
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_USA
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Uganda
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Ukraine
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_United Kingdom
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Uruguay
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Zambia
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] drop constant column: region_Zimbabwe
+2026-02-25 20:24:20,204 | INFO | [wheat52_features] final features: 3
+2026-02-25 20:24:20,208 | INFO | [wheat62_features] raw features: 89
+2026-02-25 20:24:20,210 | INFO | [wheat62_features] drop all-NaN column: Pesticide_Usage_ml
+2026-02-25 20:24:20,216 | INFO | [wheat62_features] drop constant column: Year
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Africa
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Albania
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Algeria
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Angola
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Argentina
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Armenia
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Australia
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Austria
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Azerbaijan
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Bangladesh
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Belarus
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Belgium
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Botswana
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Brazil
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Bulgaria
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Burundi
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Cameroon
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Canada
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Chile
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Colombia
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Croatia
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Denmark
+2026-02-25 20:24:20,217 | INFO | [wheat62_features] drop constant column: region_Ecuador
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Egypt
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Eritrea
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Estonia
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Finland
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_France
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Germany
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Greece
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Guatemala
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Honduras
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Hungary
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_India
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Iraq
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Ireland
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Italy
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Japan
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Kazakhstan
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Kenya
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Latvia
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Lebanon
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Lesotho
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Libya
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Lithuania
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Madagascar
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Malawi
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Mali
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Mauritania
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Mexico
+2026-02-25 20:24:20,218 | INFO | [wheat62_features] drop constant column: region_Montenegro
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Morocco
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Mozambique
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Namibia
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Nepal
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Netherlands
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_New Zealand
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Niger
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Norway
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Pakistan
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Peru
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Poland
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Portugal
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Qatar
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Romania
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Rwanda
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Saudi Arabia
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Slovenia
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_South Africa
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Spain
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Sudan
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Sweden
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Switzerland
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Tajikistan
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Thailand
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Tunisia
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Turkey
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_USA
+2026-02-25 20:24:20,219 | INFO | [wheat62_features] drop constant column: region_Uganda
+2026-02-25 20:24:20,220 | INFO | [wheat62_features] drop constant column: region_Ukraine
+2026-02-25 20:24:20,220 | INFO | [wheat62_features] drop constant column: region_United Kingdom
+2026-02-25 20:24:20,220 | INFO | [wheat62_features] drop constant column: region_Uruguay
+2026-02-25 20:24:20,220 | INFO | [wheat62_features] drop constant column: region_Zambia
+2026-02-25 20:24:20,220 | INFO | [wheat62_features] drop constant column: region_Zimbabwe
+2026-02-25 20:24:20,220 | INFO | [wheat62_features] final features: 3
+2026-02-25 20:24:20,221 | INFO | Union feature size: 89
+2026-02-25 20:24:20,222 | INFO | Clients: 6
+2026-02-25 20:24:20,222 | INFO | Features: 89
+2026-02-25 20:24:20,222 | INFO | Harmonize yield: True
+2026-02-25 20:24:20,222 | INFO | Running LOCAL baselines...
+2026-02-25 20:24:24,148 | INFO | ==== LOCAL MODELS ====
+2026-02-25 20:24:24,148 | INFO | wheat12_features | RMSE=446.66 MAE=282.61 R2=0.935 MAPE=11.95
+2026-02-25 20:24:24,148 | INFO | wheat22_features | RMSE=3757.18 MAE=3597.77 R2=-11.045 MAPE=99.79
+2026-02-25 20:24:24,148 | INFO | wheat32_features | RMSE=3926.59 MAE=2925.31 R2=-0.018 MAPE=38.30
+2026-02-25 20:24:24,148 | INFO | wheat42_features | RMSE=21122.58 MAE=17695.88 R2=-2.296 MAPE=222752047104.00
+2026-02-25 20:24:24,149 | INFO | wheat52_features | RMSE=737.48 MAE=577.70 R2=0.380 MAPE=42.27
+2026-02-25 20:24:24,149 | INFO | wheat62_features | RMSE=3675.00 MAE=3644.38 R2=-59.252 MAPE=99.91
+2026-02-25 20:24:24,149 | INFO | Running CENTRALIZED model...
+2026-02-25 20:24:27,463 | INFO | ==== CENTRALIZED ====
+2026-02-25 20:24:27,463 | INFO | centralized     | RMSE=4834.48 MAE=1716.36 R2=0.118 MAPE=26902188032.00
+2026-02-25 20:24:27,473 | INFO | Running FEDERATED learning...
+2026-02-25 20:24:55,015 | INFO | ==== FEDERATED POOLED ====
+2026-02-25 20:24:55,015 | INFO | fedavg          | RMSE=5097.67 MAE=1791.25 R2=0.019 MAPE=20980803584.00
+2026-02-25 20:24:55,015 | INFO | ==== FEDERATED PER CLIENT ====
+2026-02-25 20:24:55,015 | INFO | wheat12_features | RMSE=420.27 MAE=276.46 R2=0.942 MAPE=11.43
+2026-02-25 20:24:55,015 | INFO | wheat22_features | RMSE=2297.59 MAE=1917.03 R2=-3.504 MAPE=63.25
+2026-02-25 20:24:55,015 | INFO | wheat32_features | RMSE=8162.27 MAE=6799.12 R2=-3.401 MAPE=64.10
+2026-02-25 20:24:55,015 | INFO | wheat42_features | RMSE=20709.28 MAE=17749.63 R2=-2.168 MAPE=453901778944.00
+2026-02-25 20:24:55,015 | INFO | wheat52_features | RMSE=653.74 MAE=501.77 R2=0.513 MAPE=41.93
+2026-02-25 20:24:55,015 | INFO | wheat62_features | RMSE=1734.77 MAE=1278.44 R2=-12.426 MAPE=33.78
+2026-02-25 20:24:55,015 | INFO | Experiment finished.

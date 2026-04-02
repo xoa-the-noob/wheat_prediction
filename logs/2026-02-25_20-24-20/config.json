@@ -1,0 +1,7 @@
+{
+  "dataset_dir": "dataset",
+  "rounds": 80,
+  "local_epochs": 3,
+  "device": "cpu",
+  "no_harmonize_yield": false
+}

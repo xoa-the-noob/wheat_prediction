@@ -1,0 +1,1056 @@
+2026-02-11 22:14:46,720 | INFO | Logging initialized in: logs/2026-02-11_22-14-46
+2026-02-11 22:14:46,720 | INFO | Loading clients...
+2026-02-11 22:14:46,731 | INFO | [wheat1_features] raw features: 89
+2026-02-11 22:14:46,742 | INFO | [wheat1_features] drop constant column: region_Africa
+2026-02-11 22:14:46,743 | INFO | [wheat1_features] drop constant column: region_USA
+2026-02-11 22:14:46,744 | INFO | [wheat1_features] final features: 87
+2026-02-11 22:14:46,748 | INFO | [wheat2_features] raw features: 89
+2026-02-11 22:14:46,756 | INFO | [wheat2_features] drop constant column: Year
+2026-02-11 22:14:46,756 | INFO | [wheat2_features] drop constant column: region_Albania
+2026-02-11 22:14:46,756 | INFO | [wheat2_features] drop constant column: region_Algeria
+2026-02-11 22:14:46,756 | INFO | [wheat2_features] drop constant column: region_Angola
+2026-02-11 22:14:46,756 | INFO | [wheat2_features] drop constant column: region_Argentina
+2026-02-11 22:14:46,756 | INFO | [wheat2_features] drop constant column: region_Armenia
+2026-02-11 22:14:46,756 | INFO | [wheat2_features] drop constant column: region_Australia
+2026-02-11 22:14:46,756 | INFO | [wheat2_features] drop constant column: region_Austria
+2026-02-11 22:14:46,756 | INFO | [wheat2_features] drop constant column: region_Azerbaijan
+2026-02-11 22:14:46,756 | INFO | [wheat2_features] drop constant column: region_Bangladesh
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Belarus
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Belgium
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Botswana
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Brazil
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Bulgaria
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Burundi
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Cameroon
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Canada
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Chile
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Colombia
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Croatia
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Denmark
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Ecuador
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Egypt
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Eritrea
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Estonia
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Finland
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_France
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Germany
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Greece
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Guatemala
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Honduras
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Hungary
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Iraq
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Ireland
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Italy
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Japan
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Kazakhstan
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Kenya
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Latvia
+2026-02-11 22:14:46,757 | INFO | [wheat2_features] drop constant column: region_Lebanon
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Lesotho
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Libya
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Lithuania
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Madagascar
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Malawi
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Mali
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Mauritania
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Mexico
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Montenegro
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Morocco
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Mozambique
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Namibia
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Nepal
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Netherlands
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_New Zealand
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Niger
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Norway
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Pakistan
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Peru
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Poland
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Portugal
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Qatar
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Romania
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Rwanda
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Saudi Arabia
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Slovenia
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_South Africa
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Spain
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Sudan
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Sweden
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Switzerland
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Tajikistan
+2026-02-11 22:14:46,758 | INFO | [wheat2_features] drop constant column: region_Thailand
+2026-02-11 22:14:46,759 | INFO | [wheat2_features] drop constant column: region_Tunisia
+2026-02-11 22:14:46,759 | INFO | [wheat2_features] drop constant column: region_Turkey
+2026-02-11 22:14:46,759 | INFO | [wheat2_features] drop constant column: region_Uganda
+2026-02-11 22:14:46,759 | INFO | [wheat2_features] drop constant column: region_Ukraine
+2026-02-11 22:14:46,759 | INFO | [wheat2_features] drop constant column: region_United Kingdom
+2026-02-11 22:14:46,759 | INFO | [wheat2_features] drop constant column: region_Uruguay
+2026-02-11 22:14:46,759 | INFO | [wheat2_features] drop constant column: region_Zambia
+2026-02-11 22:14:46,759 | INFO | [wheat2_features] drop constant column: region_Zimbabwe
+2026-02-11 22:14:46,759 | INFO | [wheat2_features] final features: 7
+2026-02-11 22:14:46,763 | INFO | [wheat3_features] raw features: 89
+2026-02-11 22:14:46,765 | INFO | [wheat3_features] drop all-NaN column: Pesticide_Usage_ml
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Africa
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Albania
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Algeria
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Angola
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Argentina
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Armenia
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Australia
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Austria
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Azerbaijan
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Bangladesh
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Belarus
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Belgium
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Botswana
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Brazil
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Bulgaria
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Burundi
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Cameroon
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Canada
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Chile
+2026-02-11 22:14:46,772 | INFO | [wheat3_features] drop constant column: region_Colombia
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Croatia
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Denmark
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Ecuador
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Egypt
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Eritrea
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Estonia
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Finland
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_France
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Germany
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Greece
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Guatemala
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Honduras
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Hungary
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_India
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Iraq
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Ireland
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Italy
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Japan
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Kazakhstan
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Kenya
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Latvia
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Lebanon
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Lesotho
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Libya
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Lithuania
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Madagascar
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Malawi
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Mali
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Mauritania
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Mexico
+2026-02-11 22:14:46,773 | INFO | [wheat3_features] drop constant column: region_Montenegro
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Morocco
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Mozambique
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Namibia
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Nepal
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Netherlands
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_New Zealand
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Niger
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Norway
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Pakistan
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Peru
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Poland
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Portugal
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Qatar
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Romania
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Rwanda
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Saudi Arabia
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Slovenia
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_South Africa
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Spain
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Sudan
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Sweden
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Switzerland
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Tajikistan
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Thailand
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Tunisia
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Turkey
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_USA
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Uganda
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Ukraine
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_United Kingdom
+2026-02-11 22:14:46,774 | INFO | [wheat3_features] drop constant column: region_Uruguay
+2026-02-11 22:14:46,775 | INFO | [wheat3_features] drop constant column: region_Zambia
+2026-02-11 22:14:46,775 | INFO | [wheat3_features] drop constant column: region_Zimbabwe
+2026-02-11 22:14:46,775 | INFO | [wheat3_features] final features: 4
+2026-02-11 22:14:46,778 | INFO | [wheat4_features] raw features: 89
+2026-02-11 22:14:46,780 | INFO | [wheat4_features] drop all-NaN column: Avg_Temperature_C
+2026-02-11 22:14:46,786 | INFO | [wheat4_features] drop constant column: region_Africa
+2026-02-11 22:14:46,786 | INFO | [wheat4_features] drop constant column: region_Albania
+2026-02-11 22:14:46,786 | INFO | [wheat4_features] drop constant column: region_Algeria
+2026-02-11 22:14:46,786 | INFO | [wheat4_features] drop constant column: region_Angola
+2026-02-11 22:14:46,786 | INFO | [wheat4_features] drop constant column: region_Argentina
+2026-02-11 22:14:46,786 | INFO | [wheat4_features] drop constant column: region_Armenia
+2026-02-11 22:14:46,786 | INFO | [wheat4_features] drop constant column: region_Australia
+2026-02-11 22:14:46,786 | INFO | [wheat4_features] drop constant column: region_Austria
+2026-02-11 22:14:46,786 | INFO | [wheat4_features] drop constant column: region_Azerbaijan
+2026-02-11 22:14:46,786 | INFO | [wheat4_features] drop constant column: region_Bangladesh
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Belarus
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Belgium
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Botswana
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Brazil
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Bulgaria
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Burundi
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Cameroon
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Canada
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Chile
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Colombia
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Croatia
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Denmark
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Ecuador
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Egypt
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Eritrea
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Estonia
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Finland
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_France
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Germany
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Greece
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Guatemala
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Honduras
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Hungary
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_India
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Iraq
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Ireland
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Italy
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Japan
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Kazakhstan
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Kenya
+2026-02-11 22:14:46,787 | INFO | [wheat4_features] drop constant column: region_Latvia
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Lebanon
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Lesotho
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Libya
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Lithuania
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Madagascar
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Malawi
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Mali
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Mauritania
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Mexico
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Montenegro
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Morocco
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Mozambique
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Namibia
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Nepal
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Netherlands
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_New Zealand
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Niger
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Norway
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Pakistan
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Peru
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Poland
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Portugal
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Qatar
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Romania
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Rwanda
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Saudi Arabia
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Slovenia
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_South Africa
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Spain
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Sudan
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Sweden
+2026-02-11 22:14:46,788 | INFO | [wheat4_features] drop constant column: region_Switzerland
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] drop constant column: region_Tajikistan
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] drop constant column: region_Thailand
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] drop constant column: region_Tunisia
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] drop constant column: region_Turkey
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] drop constant column: region_USA
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] drop constant column: region_Uganda
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] drop constant column: region_Ukraine
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] drop constant column: region_United Kingdom
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] drop constant column: region_Uruguay
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] drop constant column: region_Zambia
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] drop constant column: region_Zimbabwe
+2026-02-11 22:14:46,789 | INFO | [wheat4_features] final features: 4
+2026-02-11 22:14:46,791 | INFO | [wheat5_features] raw features: 89
+2026-02-11 22:14:46,793 | INFO | [wheat5_features] drop all-NaN column: Pesticide_Usage_ml
+2026-02-11 22:14:46,799 | INFO | [wheat5_features] drop constant column: Year
+2026-02-11 22:14:46,799 | INFO | [wheat5_features] drop constant column: region_Africa
+2026-02-11 22:14:46,799 | INFO | [wheat5_features] drop constant column: region_Albania
+2026-02-11 22:14:46,799 | INFO | [wheat5_features] drop constant column: region_Algeria
+2026-02-11 22:14:46,799 | INFO | [wheat5_features] drop constant column: region_Angola
+2026-02-11 22:14:46,799 | INFO | [wheat5_features] drop constant column: region_Argentina
+2026-02-11 22:14:46,799 | INFO | [wheat5_features] drop constant column: region_Armenia
+2026-02-11 22:14:46,799 | INFO | [wheat5_features] drop constant column: region_Australia
+2026-02-11 22:14:46,799 | INFO | [wheat5_features] drop constant column: region_Austria
+2026-02-11 22:14:46,799 | INFO | [wheat5_features] drop constant column: region_Azerbaijan
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Bangladesh
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Belarus
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Belgium
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Botswana
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Brazil
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Bulgaria
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Burundi
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Cameroon
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Canada
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Chile
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Colombia
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Croatia
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Denmark
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Ecuador
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Egypt
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Eritrea
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Estonia
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Finland
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_France
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Germany
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Greece
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Guatemala
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Honduras
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Hungary
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_India
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Iraq
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Ireland
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Italy
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Japan
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Kazakhstan
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Kenya
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Latvia
+2026-02-11 22:14:46,800 | INFO | [wheat5_features] drop constant column: region_Lebanon
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Lesotho
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Libya
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Lithuania
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Madagascar
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Malawi
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Mali
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Mauritania
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Mexico
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Montenegro
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Morocco
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Mozambique
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Namibia
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Nepal
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Netherlands
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_New Zealand
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Niger
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Norway
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Pakistan
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Peru
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Poland
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Portugal
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Qatar
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Romania
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Rwanda
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Saudi Arabia
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Slovenia
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_South Africa
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Spain
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Sudan
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Sweden
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Switzerland
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Tajikistan
+2026-02-11 22:14:46,801 | INFO | [wheat5_features] drop constant column: region_Thailand
+2026-02-11 22:14:46,802 | INFO | [wheat5_features] drop constant column: region_Tunisia
+2026-02-11 22:14:46,802 | INFO | [wheat5_features] drop constant column: region_Turkey
+2026-02-11 22:14:46,802 | INFO | [wheat5_features] drop constant column: region_USA
+2026-02-11 22:14:46,802 | INFO | [wheat5_features] drop constant column: region_Uganda
+2026-02-11 22:14:46,802 | INFO | [wheat5_features] drop constant column: region_Ukraine
+2026-02-11 22:14:46,802 | INFO | [wheat5_features] drop constant column: region_United Kingdom
+2026-02-11 22:14:46,802 | INFO | [wheat5_features] drop constant column: region_Uruguay
+2026-02-11 22:14:46,802 | INFO | [wheat5_features] drop constant column: region_Zambia
+2026-02-11 22:14:46,802 | INFO | [wheat5_features] drop constant column: region_Zimbabwe
+2026-02-11 22:14:46,802 | INFO | [wheat5_features] final features: 3
+2026-02-11 22:14:46,816 | INFO | [wheat6_features] raw features: 89
+2026-02-11 22:14:46,821 | INFO | [wheat6_features] drop all-NaN column: Pesticide_Usage_ml
+2026-02-11 22:14:46,821 | INFO | [wheat6_features] drop all-NaN column: Year
+2026-02-11 22:14:46,828 | INFO | [wheat6_features] drop constant column: region_Africa
+2026-02-11 22:14:46,828 | INFO | [wheat6_features] drop constant column: region_Albania
+2026-02-11 22:14:46,828 | INFO | [wheat6_features] drop constant column: region_Algeria
+2026-02-11 22:14:46,828 | INFO | [wheat6_features] drop constant column: region_Angola
+2026-02-11 22:14:46,828 | INFO | [wheat6_features] drop constant column: region_Argentina
+2026-02-11 22:14:46,828 | INFO | [wheat6_features] drop constant column: region_Armenia
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Australia
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Austria
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Azerbaijan
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Bangladesh
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Belarus
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Belgium
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Botswana
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Brazil
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Bulgaria
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Burundi
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Cameroon
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Canada
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Chile
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Colombia
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Croatia
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Denmark
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Ecuador
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Egypt
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Eritrea
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Estonia
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Finland
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_France
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Germany
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Greece
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Guatemala
+2026-02-11 22:14:46,829 | INFO | [wheat6_features] drop constant column: region_Honduras
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Hungary
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_India
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Iraq
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Ireland
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Italy
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Japan
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Kazakhstan
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Kenya
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Latvia
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Lebanon
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Lesotho
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Libya
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Lithuania
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Madagascar
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Malawi
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Mali
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Mauritania
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Mexico
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Montenegro
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Morocco
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Mozambique
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Namibia
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Nepal
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Netherlands
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_New Zealand
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Niger
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Norway
+2026-02-11 22:14:46,830 | INFO | [wheat6_features] drop constant column: region_Pakistan
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Peru
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Poland
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Portugal
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Qatar
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Romania
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Rwanda
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Saudi Arabia
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Slovenia
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_South Africa
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Spain
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Sudan
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Sweden
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Switzerland
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Tajikistan
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Thailand
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Tunisia
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Turkey
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_USA
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Uganda
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Ukraine
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_United Kingdom
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Uruguay
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Zambia
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] drop constant column: region_Zimbabwe
+2026-02-11 22:14:46,831 | INFO | [wheat6_features] final features: 3
+2026-02-11 22:14:46,833 | INFO | Union feature size: 89
+2026-02-11 22:14:46,834 | INFO | Clients: 6
+2026-02-11 22:14:46,834 | INFO | Features: 89
+2026-02-11 22:14:46,834 | INFO | Harmonize yield: True
+2026-02-11 22:14:46,834 | INFO | Running LOCAL baselines...
+2026-02-11 22:14:50,747 | INFO | ==== LOCAL MODELS ====
+2026-02-11 22:14:50,747 | INFO | wheat1_features | RMSE=446.66 MAE=282.61 R2=0.935 MAPE=11.95
+2026-02-11 22:14:50,747 | INFO | wheat2_features | RMSE=3757.18 MAE=3597.77 R2=-11.045 MAPE=99.79
+2026-02-11 22:14:50,747 | INFO | wheat3_features | RMSE=1318.11 MAE=1036.41 R2=0.283 MAPE=35.47
+2026-02-11 22:14:50,748 | INFO | wheat4_features | RMSE=1077.67 MAE=817.96 R2=0.142 MAPE=195395092480.00
+2026-02-11 22:14:50,748 | INFO | wheat5_features | RMSE=3673.84 MAE=3643.22 R2=-59.214 MAPE=99.88
+2026-02-11 22:14:50,748 | INFO | wheat6_features | RMSE=819.72 MAE=642.03 R2=0.369 MAPE=42.07
+2026-02-11 22:14:50,748 | INFO | Running CENTRALIZED model...
+2026-02-11 22:14:54,050 | INFO | ==== CENTRALIZED ====
+2026-02-11 22:14:54,050 | INFO | centralized     | RMSE=977.61 MAE=632.94 R2=0.562 MAPE=16495525888.00
+2026-02-11 22:14:54,050 | INFO | Running FEDERATED learning...
+2026-02-11 22:14:54,280 | WARNING | DEPRECATED FEATURE: flwr.simulation.start_simulation() is deprecated.
+	Instead, use the `flwr run` CLI command to start a local simulation in your Flower app, as shown for example below:
+
+		$ flwr new  # Create a new Flower app from a template
+
+		$ flwr run  # Run the Flower app in Simulation Mode
+
+	Using `start_simulation()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-02-11 22:14:54,281 | INFO | Starting Flower simulation, config: num_rounds=80, no round_timeout
+2026-02-11 22:14:55,736 | INFO | Flower VCE: Ray initialized with resources: {'object_store_memory': 6725221171.0, 'memory': 15692182733.0, 'node:__internal_head__': 1.0, 'CPU': 32.0, 'node:192.168.1.130': 1.0}
+2026-02-11 22:14:55,736 | INFO | Optimize your simulation with Flower VCE: https://flower.ai/docs/framework/how-to-run-simulations.html
+2026-02-11 22:14:55,736 | INFO | No `client_resources` specified. Using minimal resources for clients.
+2026-02-11 22:14:55,736 | INFO | Flower VCE: Resources for each Virtual Client: {'num_cpus': 1, 'num_gpus': 0.0}
+2026-02-11 22:14:55,753 | INFO | Flower VCE: Creating VirtualClientEngineActorPool with 32 actors
+2026-02-11 22:14:55,753 | INFO | [INIT]
+2026-02-11 22:14:55,753 | INFO | Requesting initial parameters from one random client
+2026-02-11 22:15:01,379 | INFO | Received initial parameters from one random client
+2026-02-11 22:15:01,379 | INFO | Starting evaluation of initial global parameters
+2026-02-11 22:15:01,379 | INFO | Evaluation returned no results (`None`)
+2026-02-11 22:15:01,379 | INFO | 
+2026-02-11 22:15:01,379 | INFO | [ROUND 1]
+2026-02-11 22:15:01,379 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:03,500 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:03,501 | WARNING | No fit_metrics_aggregation_fn provided
+2026-02-11 22:15:03,501 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:03,540 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:03,540 | WARNING | No evaluate_metrics_aggregation_fn provided
+2026-02-11 22:15:03,540 | INFO | 
+2026-02-11 22:15:03,540 | INFO | [ROUND 2]
+2026-02-11 22:15:03,540 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:03,743 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:03,744 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:03,786 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:03,786 | INFO | 
+2026-02-11 22:15:03,786 | INFO | [ROUND 3]
+2026-02-11 22:15:03,786 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:03,984 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:03,986 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:04,025 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:04,025 | INFO | 
+2026-02-11 22:15:04,025 | INFO | [ROUND 4]
+2026-02-11 22:15:04,025 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:04,231 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:04,233 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:04,266 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:04,266 | INFO | 
+2026-02-11 22:15:04,266 | INFO | [ROUND 5]
+2026-02-11 22:15:04,266 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:04,469 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:04,470 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:04,503 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:04,503 | INFO | 
+2026-02-11 22:15:04,503 | INFO | [ROUND 6]
+2026-02-11 22:15:04,503 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:04,685 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:04,686 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:04,718 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:04,718 | INFO | 
+2026-02-11 22:15:04,718 | INFO | [ROUND 7]
+2026-02-11 22:15:04,718 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:04,914 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:04,915 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:04,951 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:04,951 | INFO | 
+2026-02-11 22:15:04,951 | INFO | [ROUND 8]
+2026-02-11 22:15:04,951 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:05,151 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:05,152 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:05,184 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:05,184 | INFO | 
+2026-02-11 22:15:05,184 | INFO | [ROUND 9]
+2026-02-11 22:15:05,184 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:05,371 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:05,372 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:05,405 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:05,405 | INFO | 
+2026-02-11 22:15:05,405 | INFO | [ROUND 10]
+2026-02-11 22:15:05,405 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:05,596 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:05,598 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:05,630 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:05,630 | INFO | 
+2026-02-11 22:15:05,630 | INFO | [ROUND 11]
+2026-02-11 22:15:05,630 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:05,833 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:05,834 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:05,866 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:05,866 | INFO | 
+2026-02-11 22:15:05,866 | INFO | [ROUND 12]
+2026-02-11 22:15:05,866 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:06,075 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:06,076 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:06,110 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:06,110 | INFO | 
+2026-02-11 22:15:06,110 | INFO | [ROUND 13]
+2026-02-11 22:15:06,110 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:06,296 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:06,297 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:06,329 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:06,329 | INFO | 
+2026-02-11 22:15:06,329 | INFO | [ROUND 14]
+2026-02-11 22:15:06,329 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:06,519 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:06,520 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:06,552 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:06,552 | INFO | 
+2026-02-11 22:15:06,552 | INFO | [ROUND 15]
+2026-02-11 22:15:06,552 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:06,756 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:06,757 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:06,789 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:06,789 | INFO | 
+2026-02-11 22:15:06,789 | INFO | [ROUND 16]
+2026-02-11 22:15:06,789 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:06,975 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:06,977 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:07,012 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:07,013 | INFO | 
+2026-02-11 22:15:07,013 | INFO | [ROUND 17]
+2026-02-11 22:15:07,013 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:07,225 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:07,226 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:07,258 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:07,258 | INFO | 
+2026-02-11 22:15:07,258 | INFO | [ROUND 18]
+2026-02-11 22:15:07,258 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:07,448 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:07,449 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:07,480 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:07,480 | INFO | 
+2026-02-11 22:15:07,480 | INFO | [ROUND 19]
+2026-02-11 22:15:07,480 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:07,672 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:07,673 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:07,704 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:07,704 | INFO | 
+2026-02-11 22:15:07,704 | INFO | [ROUND 20]
+2026-02-11 22:15:07,705 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:07,892 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:07,894 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:07,926 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:07,926 | INFO | 
+2026-02-11 22:15:07,926 | INFO | [ROUND 21]
+2026-02-11 22:15:07,926 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:08,131 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:08,132 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:08,164 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:08,164 | INFO | 
+2026-02-11 22:15:08,164 | INFO | [ROUND 22]
+2026-02-11 22:15:08,164 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:08,367 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:08,368 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:08,402 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:08,402 | INFO | 
+2026-02-11 22:15:08,402 | INFO | [ROUND 23]
+2026-02-11 22:15:08,402 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:08,600 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:08,601 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:08,633 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:08,634 | INFO | 
+2026-02-11 22:15:08,634 | INFO | [ROUND 24]
+2026-02-11 22:15:08,634 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:08,824 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:08,825 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:08,858 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:08,858 | INFO | 
+2026-02-11 22:15:08,858 | INFO | [ROUND 25]
+2026-02-11 22:15:08,858 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:09,057 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:09,058 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:09,088 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:09,088 | INFO | 
+2026-02-11 22:15:09,088 | INFO | [ROUND 26]
+2026-02-11 22:15:09,088 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:09,273 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:09,275 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:09,305 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:09,305 | INFO | 
+2026-02-11 22:15:09,305 | INFO | [ROUND 27]
+2026-02-11 22:15:09,305 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:09,503 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:09,505 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:09,535 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:09,535 | INFO | 
+2026-02-11 22:15:09,535 | INFO | [ROUND 28]
+2026-02-11 22:15:09,535 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:09,724 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:09,725 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:09,758 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:09,758 | INFO | 
+2026-02-11 22:15:09,758 | INFO | [ROUND 29]
+2026-02-11 22:15:09,758 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:09,953 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:09,954 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:09,986 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:09,986 | INFO | 
+2026-02-11 22:15:09,986 | INFO | [ROUND 30]
+2026-02-11 22:15:09,986 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:10,187 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:10,189 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:10,220 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:10,220 | INFO | 
+2026-02-11 22:15:10,220 | INFO | [ROUND 31]
+2026-02-11 22:15:10,220 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:10,426 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:10,427 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:10,458 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:10,458 | INFO | 
+2026-02-11 22:15:10,458 | INFO | [ROUND 32]
+2026-02-11 22:15:10,458 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:10,666 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:10,667 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:10,699 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:10,699 | INFO | 
+2026-02-11 22:15:10,699 | INFO | [ROUND 33]
+2026-02-11 22:15:10,699 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:10,897 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:10,898 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:10,929 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:10,929 | INFO | 
+2026-02-11 22:15:10,929 | INFO | [ROUND 34]
+2026-02-11 22:15:10,929 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:11,126 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:11,127 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:11,160 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:11,160 | INFO | 
+2026-02-11 22:15:11,160 | INFO | [ROUND 35]
+2026-02-11 22:15:11,160 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:11,363 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:11,364 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:11,396 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:11,396 | INFO | 
+2026-02-11 22:15:11,396 | INFO | [ROUND 36]
+2026-02-11 22:15:11,396 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:11,598 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:11,599 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:11,633 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:11,633 | INFO | 
+2026-02-11 22:15:11,633 | INFO | [ROUND 37]
+2026-02-11 22:15:11,633 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:11,820 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:11,821 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:11,851 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:11,851 | INFO | 
+2026-02-11 22:15:11,851 | INFO | [ROUND 38]
+2026-02-11 22:15:11,851 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:12,052 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:12,054 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:12,087 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:12,087 | INFO | 
+2026-02-11 22:15:12,087 | INFO | [ROUND 39]
+2026-02-11 22:15:12,087 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:12,296 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:12,297 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:12,329 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:12,329 | INFO | 
+2026-02-11 22:15:12,329 | INFO | [ROUND 40]
+2026-02-11 22:15:12,329 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:12,529 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:12,531 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:12,563 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:12,563 | INFO | 
+2026-02-11 22:15:12,563 | INFO | [ROUND 41]
+2026-02-11 22:15:12,563 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:12,764 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:12,766 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:12,797 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:12,797 | INFO | 
+2026-02-11 22:15:12,797 | INFO | [ROUND 42]
+2026-02-11 22:15:12,797 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:12,991 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:12,992 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:13,022 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:13,023 | INFO | 
+2026-02-11 22:15:13,023 | INFO | [ROUND 43]
+2026-02-11 22:15:13,023 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:13,208 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:13,209 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:13,242 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:13,242 | INFO | 
+2026-02-11 22:15:13,242 | INFO | [ROUND 44]
+2026-02-11 22:15:13,242 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:13,434 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:13,435 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:13,468 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:13,468 | INFO | 
+2026-02-11 22:15:13,468 | INFO | [ROUND 45]
+2026-02-11 22:15:13,468 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:13,670 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:13,672 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:13,703 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:13,703 | INFO | 
+2026-02-11 22:15:13,703 | INFO | [ROUND 46]
+2026-02-11 22:15:13,703 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:13,900 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:13,902 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:13,934 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:13,934 | INFO | 
+2026-02-11 22:15:13,934 | INFO | [ROUND 47]
+2026-02-11 22:15:13,934 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:14,132 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:14,265 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:14,297 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:14,297 | INFO | 
+2026-02-11 22:15:14,297 | INFO | [ROUND 48]
+2026-02-11 22:15:14,297 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:14,498 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:14,499 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:14,533 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:14,533 | INFO | 
+2026-02-11 22:15:14,533 | INFO | [ROUND 49]
+2026-02-11 22:15:14,533 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:14,728 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:14,729 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:14,762 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:14,762 | INFO | 
+2026-02-11 22:15:14,762 | INFO | [ROUND 50]
+2026-02-11 22:15:14,762 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:14,960 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:14,961 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:14,994 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:14,994 | INFO | 
+2026-02-11 22:15:14,994 | INFO | [ROUND 51]
+2026-02-11 22:15:14,994 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:15,180 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:15,181 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:15,213 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:15,213 | INFO | 
+2026-02-11 22:15:15,213 | INFO | [ROUND 52]
+2026-02-11 22:15:15,213 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:15,426 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:15,427 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:15,459 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:15,459 | INFO | 
+2026-02-11 22:15:15,459 | INFO | [ROUND 53]
+2026-02-11 22:15:15,459 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:15,650 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:15,651 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:15,682 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:15,682 | INFO | 
+2026-02-11 22:15:15,682 | INFO | [ROUND 54]
+2026-02-11 22:15:15,683 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:15,882 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:15,883 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:15,915 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:15,915 | INFO | 
+2026-02-11 22:15:15,915 | INFO | [ROUND 55]
+2026-02-11 22:15:15,915 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:16,103 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:16,105 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:16,137 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:16,137 | INFO | 
+2026-02-11 22:15:16,137 | INFO | [ROUND 56]
+2026-02-11 22:15:16,137 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:16,342 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:16,343 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:16,374 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:16,374 | INFO | 
+2026-02-11 22:15:16,374 | INFO | [ROUND 57]
+2026-02-11 22:15:16,374 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:16,567 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:16,568 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:16,599 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:16,599 | INFO | 
+2026-02-11 22:15:16,599 | INFO | [ROUND 58]
+2026-02-11 22:15:16,599 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:16,790 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:16,791 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:16,823 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:16,824 | INFO | 
+2026-02-11 22:15:16,824 | INFO | [ROUND 59]
+2026-02-11 22:15:16,824 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:17,017 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:17,019 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:17,050 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:17,050 | INFO | 
+2026-02-11 22:15:17,050 | INFO | [ROUND 60]
+2026-02-11 22:15:17,050 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:17,247 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:17,248 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:17,281 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:17,281 | INFO | 
+2026-02-11 22:15:17,281 | INFO | [ROUND 61]
+2026-02-11 22:15:17,281 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:17,472 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:17,473 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:17,505 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:17,505 | INFO | 
+2026-02-11 22:15:17,505 | INFO | [ROUND 62]
+2026-02-11 22:15:17,505 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:17,704 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:17,705 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:17,736 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:17,736 | INFO | 
+2026-02-11 22:15:17,736 | INFO | [ROUND 63]
+2026-02-11 22:15:17,736 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:17,929 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:17,930 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:17,962 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:17,962 | INFO | 
+2026-02-11 22:15:17,962 | INFO | [ROUND 64]
+2026-02-11 22:15:17,962 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:18,148 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:18,150 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:18,181 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:18,182 | INFO | 
+2026-02-11 22:15:18,182 | INFO | [ROUND 65]
+2026-02-11 22:15:18,182 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:18,379 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:18,380 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:18,413 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:18,413 | INFO | 
+2026-02-11 22:15:18,413 | INFO | [ROUND 66]
+2026-02-11 22:15:18,413 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:18,602 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:18,603 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:18,633 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:18,633 | INFO | 
+2026-02-11 22:15:18,633 | INFO | [ROUND 67]
+2026-02-11 22:15:18,633 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:18,833 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:18,834 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:18,865 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:18,865 | INFO | 
+2026-02-11 22:15:18,865 | INFO | [ROUND 68]
+2026-02-11 22:15:18,865 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:19,058 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:19,059 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:19,092 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:19,092 | INFO | 
+2026-02-11 22:15:19,092 | INFO | [ROUND 69]
+2026-02-11 22:15:19,092 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:19,305 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:19,306 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:19,338 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:19,338 | INFO | 
+2026-02-11 22:15:19,338 | INFO | [ROUND 70]
+2026-02-11 22:15:19,338 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:19,532 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:19,533 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:19,564 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:19,564 | INFO | 
+2026-02-11 22:15:19,564 | INFO | [ROUND 71]
+2026-02-11 22:15:19,564 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:19,749 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:19,750 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:19,781 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:19,781 | INFO | 
+2026-02-11 22:15:19,781 | INFO | [ROUND 72]
+2026-02-11 22:15:19,781 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:19,983 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:19,984 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:20,016 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:20,016 | INFO | 
+2026-02-11 22:15:20,016 | INFO | [ROUND 73]
+2026-02-11 22:15:20,016 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:20,216 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:20,217 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:20,249 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:20,249 | INFO | 
+2026-02-11 22:15:20,250 | INFO | [ROUND 74]
+2026-02-11 22:15:20,250 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:20,444 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:20,445 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:20,475 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:20,475 | INFO | 
+2026-02-11 22:15:20,475 | INFO | [ROUND 75]
+2026-02-11 22:15:20,475 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:20,674 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:20,675 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:20,707 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:20,707 | INFO | 
+2026-02-11 22:15:20,707 | INFO | [ROUND 76]
+2026-02-11 22:15:20,707 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:20,896 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:20,897 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:20,927 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:20,927 | INFO | 
+2026-02-11 22:15:20,927 | INFO | [ROUND 77]
+2026-02-11 22:15:20,927 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:21,119 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:21,120 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:21,152 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:21,152 | INFO | 
+2026-02-11 22:15:21,152 | INFO | [ROUND 78]
+2026-02-11 22:15:21,152 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:21,348 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:21,349 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:21,381 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:21,381 | INFO | 
+2026-02-11 22:15:21,381 | INFO | [ROUND 79]
+2026-02-11 22:15:21,381 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:21,572 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:21,573 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:21,605 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:21,605 | INFO | 
+2026-02-11 22:15:21,605 | INFO | [ROUND 80]
+2026-02-11 22:15:21,605 | INFO | configure_fit: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:21,791 | INFO | aggregate_fit: received 6 results and 0 failures
+2026-02-11 22:15:21,793 | INFO | configure_evaluate: strategy sampled 6 clients (out of 6)
+2026-02-11 22:15:21,824 | INFO | aggregate_evaluate: received 6 results and 0 failures
+2026-02-11 22:15:21,824 | INFO | 
+2026-02-11 22:15:21,824 | INFO | [SUMMARY]
+2026-02-11 22:15:21,824 | INFO | Run finished 80 round(s) in 20.45s
+2026-02-11 22:15:21,824 | INFO | 	History (loss, distributed):
+2026-02-11 22:15:21,824 | INFO | 		round 1: 2255.183298883718
+2026-02-11 22:15:21,824 | INFO | 		round 2: 1520.9046477727575
+2026-02-11 22:15:21,824 | INFO | 		round 3: 1265.7585359911366
+2026-02-11 22:15:21,824 | INFO | 		round 4: 1154.9293322821316
+2026-02-11 22:15:21,825 | INFO | 		round 5: 1084.3856880990177
+2026-02-11 22:15:21,825 | INFO | 		round 6: 1028.156630992924
+2026-02-11 22:15:21,825 | INFO | 		round 7: 985.8165329255459
+2026-02-11 22:15:21,825 | INFO | 		round 8: 956.5694855266809
+2026-02-11 22:15:21,825 | INFO | 		round 9: 931.1310518426345
+2026-02-11 22:15:21,825 | INFO | 		round 10: 916.0646361297685
+2026-02-11 22:15:21,825 | INFO | 		round 11: 904.5425660256726
+2026-02-11 22:15:21,825 | INFO | 		round 12: 898.6339221112675
+2026-02-11 22:15:21,825 | INFO | 		round 13: 896.5101232296662
+2026-02-11 22:15:21,825 | INFO | 		round 14: 888.6926414415279
+2026-02-11 22:15:21,825 | INFO | 		round 15: 884.8167015121825
+2026-02-11 22:15:21,825 | INFO | 		round 16: 883.9753347231973
+2026-02-11 22:15:21,825 | INFO | 		round 17: 880.6450443194832
+2026-02-11 22:15:21,825 | INFO | 		round 18: 877.8461207109534
+2026-02-11 22:15:21,825 | INFO | 		round 19: 881.2317101562829
+2026-02-11 22:15:21,825 | INFO | 		round 20: 877.8446420996727
+2026-02-11 22:15:21,825 | INFO | 		round 21: 876.2593507623055
+2026-02-11 22:15:21,825 | INFO | 		round 22: 875.383989213562
+2026-02-11 22:15:21,825 | INFO | 		round 23: 871.5129122549276
+2026-02-11 22:15:21,825 | INFO | 		round 24: 868.970788383405
+2026-02-11 22:15:21,825 | INFO | 		round 25: 869.6839173300991
+2026-02-11 22:15:21,825 | INFO | 		round 26: 866.8451605649865
+2026-02-11 22:15:21,825 | INFO | 		round 27: 867.8804475759513
+2026-02-11 22:15:21,825 | INFO | 		round 28: 863.9063418877047
+2026-02-11 22:15:21,825 | INFO | 		round 29: 862.7992733303862
+2026-02-11 22:15:21,825 | INFO | 		round 30: 860.1266784355319
+2026-02-11 22:15:21,825 | INFO | 		round 31: 858.9732288590284
+2026-02-11 22:15:21,825 | INFO | 		round 32: 859.1645796977317
+2026-02-11 22:15:21,825 | INFO | 		round 33: 857.0761206068693
+2026-02-11 22:15:21,825 | INFO | 		round 34: 854.9252504491953
+2026-02-11 22:15:21,825 | INFO | 		round 35: 854.0135778381635
+2026-02-11 22:15:21,825 | INFO | 		round 36: 851.7801816465675
+2026-02-11 22:15:21,825 | INFO | 		round 37: 850.5937674703467
+2026-02-11 22:15:21,825 | INFO | 		round 38: 849.381320595794
+2026-02-11 22:15:21,825 | INFO | 		round 39: 848.5815589604919
+2026-02-11 22:15:21,825 | INFO | 		round 40: 848.7214398766815
+2026-02-11 22:15:21,825 | INFO | 		round 41: 846.8357552181571
+2026-02-11 22:15:21,825 | INFO | 		round 42: 844.711184696489
+2026-02-11 22:15:21,825 | INFO | 		round 43: 841.9619107425372
+2026-02-11 22:15:21,825 | INFO | 		round 44: 842.1667975583953
+2026-02-11 22:15:21,825 | INFO | 		round 45: 840.0265909177225
+2026-02-11 22:15:21,825 | INFO | 		round 46: 840.6317160031211
+2026-02-11 22:15:21,825 | INFO | 		round 47: 840.4478195213699
+2026-02-11 22:15:21,825 | INFO | 		round 48: 840.7940984056229
+2026-02-11 22:15:21,825 | INFO | 		round 49: 838.4687276472581
+2026-02-11 22:15:21,825 | INFO | 		round 50: 836.4295642477047
+2026-02-11 22:15:21,825 | INFO | 		round 51: 835.6669908357376
+2026-02-11 22:15:21,825 | INFO | 		round 52: 834.785449234071
+2026-02-11 22:15:21,825 | INFO | 		round 53: 831.6310861413361
+2026-02-11 22:15:21,825 | INFO | 		round 54: 831.9532779492039
+2026-02-11 22:15:21,825 | INFO | 		round 55: 829.3162087238329
+2026-02-11 22:15:21,825 | INFO | 		round 56: 828.4105856403576
+2026-02-11 22:15:21,825 | INFO | 		round 57: 827.2009658388392
+2026-02-11 22:15:21,825 | INFO | 		round 58: 827.81301533836
+2026-02-11 22:15:21,825 | INFO | 		round 59: 827.3228419774604
+2026-02-11 22:15:21,825 | INFO | 		round 60: 827.5499866371882
+2026-02-11 22:15:21,825 | INFO | 		round 61: 825.5089057484596
+2026-02-11 22:15:21,825 | INFO | 		round 62: 825.7402388226564
+2026-02-11 22:15:21,825 | INFO | 		round 63: 821.5528315407062
+2026-02-11 22:15:21,825 | INFO | 		round 64: 821.2575516107531
+2026-02-11 22:15:21,825 | INFO | 		round 65: 820.7267144409734
+2026-02-11 22:15:21,825 | INFO | 		round 66: 821.6232560830722
+2026-02-11 22:15:21,825 | INFO | 		round 67: 819.6253727811276
+2026-02-11 22:15:21,825 | INFO | 		round 68: 818.3341859337185
+2026-02-11 22:15:21,825 | INFO | 		round 69: 817.3257114134277
+2026-02-11 22:15:21,825 | INFO | 		round 70: 819.3940336160846
+2026-02-11 22:15:21,826 | INFO | 		round 71: 818.7115388168241
+2026-02-11 22:15:21,826 | INFO | 		round 72: 818.0941049167328
+2026-02-11 22:15:21,826 | INFO | 		round 73: 815.2937542859964
+2026-02-11 22:15:21,826 | INFO | 		round 74: 815.0080968429742
+2026-02-11 22:15:21,826 | INFO | 		round 75: 811.6223987200557
+2026-02-11 22:15:21,826 | INFO | 		round 76: 812.9783373512295
+2026-02-11 22:15:21,826 | INFO | 		round 77: 813.9751289612586
+2026-02-11 22:15:21,826 | INFO | 		round 78: 813.7305833381091
+2026-02-11 22:15:21,826 | INFO | 		round 79: 812.9486579439333
+2026-02-11 22:15:21,826 | INFO | 		round 80: 815.1516468186043
+2026-02-11 22:15:21,826 | INFO | 
+2026-02-11 22:15:21,831 | INFO | ==== FEDERATED POOLED ====
+2026-02-11 22:15:21,832 | INFO | fedavg          | RMSE=1018.89 MAE=622.12 R2=0.524 MAPE=21597603840.00
+2026-02-11 22:15:21,832 | INFO | ==== FEDERATED PER CLIENT ====
+2026-02-11 22:15:21,832 | INFO | wheat1_features | RMSE=420.04 MAE=280.63 R2=0.942 MAPE=11.72
+2026-02-11 22:15:21,832 | INFO | wheat2_features | RMSE=2158.46 MAE=1850.29 R2=-2.975 MAPE=59.82
+2026-02-11 22:15:21,832 | INFO | wheat3_features | RMSE=2567.78 MAE=1939.84 R2=-1.722 MAPE=58.88
+2026-02-11 22:15:21,832 | INFO | wheat4_features | RMSE=1294.11 MAE=943.71 R2=-0.237 MAPE=467245727744.00
+2026-02-11 22:15:21,832 | INFO | wheat5_features | RMSE=1722.90 MAE=1283.81 R2=-12.243 MAPE=34.19
+2026-02-11 22:15:21,832 | INFO | wheat6_features | RMSE=720.80 MAE=561.41 R2=0.512 MAPE=40.20
+2026-02-11 22:15:21,832 | INFO | Experiment finished.
